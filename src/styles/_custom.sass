@@ -1,15 +1,123 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 40%
-    right: 50%
-  &-2
     animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+    position: absolute 
+    top: 8%
+    right: -8%
+    z-index: 2
+    width: 130%
 
+  &-2
+    animation: blink1 5s ease 0s infinite normal forwards
+    position: absolute
+    top: 5%
+    z-index: 2
+    left: -125%
+
+  &-3
+    animation: blink1 5s ease 0s infinite normal forwards
+    position: absolute
+    top: 7%
+    z-index: 2
+    left: -20%    
+  
+  &-4
+    animation: blink1 5s ease 0s infinite normal forwards
+    position: absolute
+    top: 7%
+    z-index: 2
+    right: -7%       
+
+.banner-principal__img
+  z-index: 2
+
+.clr-paleBlue
+  background-color: #21CBAE
+
+.clr-paleYellow
+  background-color: #feca2f2d
+
+.clr-paleRose
+  background-color: #FBCEDD
+
+.tarjeta.color-primario
+  p
+    color:#F9F7EC
+  h2
+    color:#F9F7EC
+
+.tema1-decorativa-01
+  position: absolute
+  top: 71%
+  right: 3.5%
+  width: 25%
+  z-index: 1
+
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #21CBAE
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+.tarjeta.color--secundario
+  position: relative
+  background-color: #0B5999;
+  z-index: 2
+
+.img-infografica-b.color-primario .img-infografica-b__item__dot:before
+  background-color: #21CBAE 
+
+.img-infografica-b.color-primario .img-infografica-b__item__dot:after
+  background-color: #21CBAE   
+
+.img-infografica-b__modal
+  background-color: #F6F6F6
+
+.img-infografica-b__modal__btn-cerrar 
+  i
+    color: #12263F  
+
+.clr-lightBlue  
+  background-color: #21CBAE  
+
+.lista-ol--cuadro.lista-ol--separador
+  li
+    .lista-ol--cuadro__vineta
+      background-color: #3BC192 
+
+.color-acento-botones2      
+  &::before  
+    background-color: #EF3C79
+
+  background-color: #ADF2E6
+
+.color-acento-botones3     
+  &::before  
+    background-color: #EF3C79
+
+  background-color: #FBCEDD
+
+
+.imagen-sintesis-1
+  position: absolute
+  top: 2%
+  right: 7%
+  width: 7%
 
 @keyframes float1
   0%
@@ -17,3 +125,103 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes blink1
+	0%,
+	50%,
+	100% 
+		opacity: 1;
+	
+
+	25%,
+	75% 
+		opacity: 0;
+//////////////////////////////////////
+.cajon.color-secundario:before
+  background-color: #4DD0E1
+
+.cajon.color-secundario
+  background-color: #0B5999
+  p
+    color:#F9F7EC
+
+.acordion__titulo  
+  color:#0B5999
+
+.acordion__accion__btn--a
+  background-color:#0B5999
+  i
+    color:#F9F7EC
+
+
+
+.clr-paleBlue
+  background-color: #E3E8F2
+
+.clr--paleBlue
+  background-color: #C5E4EF
+
+.clr-Blue
+  color: #0B5999
+
+.col-md-10
+  h3
+    text-align:left!important    
+  p
+    text-align:left!important
+  ul
+    text-align:left!important      
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 5rem
+  & > *
+    position: relative
+  h5 
+    color: #12263F
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #C5E5FE
+
+.lista-ol--cuadro__vineta
+  background-color:#4DD0E1
+
+.pasos-a.color-primario .pasos-a__circle 
+  div
+    color:#F9F7EC
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero 
+  span
+    color:#F9F7EC
+
+.cont_bg-2
+  margin-top: -70px   
+
+.bloque-texto-g__texto
+  z-index: 1  
+
+.tema2-decorativa-01
+  position: absolute
+  top: 57%
+  right: 11%
+  width: 25%
+
+.tema2-decorativa-02
+  position: absolute
+  top: 75%
+  right: 50%
+  width: 25%
+
+
+ 
+
+
+	    
+  

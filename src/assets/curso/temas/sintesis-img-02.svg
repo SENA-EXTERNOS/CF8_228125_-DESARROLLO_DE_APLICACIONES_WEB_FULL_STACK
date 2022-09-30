@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1027.41" height="862.92" viewBox="0 0 1027.41 862.92">
+  <g id="Grupo_897690" data-name="Grupo 897690" transform="translate(-286.295 -540)">
+    <g id="sintesis" transform="translate(241.065 495.42)">
+      <g id="Grupo_878110" data-name="Grupo 878110">
+        <path id="Trazado_602576" data-name="Trazado 602576" d="M681,833.5H803v-30h86" fill="none" stroke="#575756" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Trazado_602577" data-name="Trazado 602577" d="M803,833.5v39h88" fill="none" stroke="#575756" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+      <g id="Grupo_878111" data-name="Grupo 878111">
+        <path id="Trazado_602578" data-name="Trazado 602578" d="M656,595.5H803v-93H920" fill="none" stroke="#575756" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Trazado_602579" data-name="Trazado 602579" d="M803,595.5v83H909" fill="none" stroke="#575756" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Línea_415" data-name="Línea 415" x2="97" transform="translate(804 561.5)" fill="none" stroke="#575756" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Línea_416" data-name="Línea 416" x2="89" transform="translate(803 624.5)" fill="none" stroke="#575756" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+      <path id="Trazado_602580" data-name="Trazado 602580" d="M678,328.5H803v-61h89" fill="none" stroke="#575756" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Trazado_602581" data-name="Trazado 602581" d="M892.5,328.5H803V379h89.5" fill="none" stroke="#575756" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Trazado_602582" data-name="Trazado 602582" d="M654,95.5H801v-30h85" fill="none" stroke="#575756" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Trazado_602583" data-name="Trazado 602583" d="M801,95.5v32h96" fill="none" stroke="#575756" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Trazado_602584" data-name="Trazado 602584" d="M271.91,452.56V330.5H400" fill="none" stroke="#575756" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Trazado_602585" data-name="Trazado 602585" d="M271.91,452.56V601.5H400" fill="none" stroke="#575756" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Trazado_602586" data-name="Trazado 602586" d="M189.68,454.01V98.5H446.97" fill="none" stroke="#575756" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Trazado_602587" data-name="Trazado 602587" d="M189.68,454.01V834.5H446.97" fill="none" stroke="#575756" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Trazado_602588" data-name="Trazado 602588" d="M300.13,488.01H79.23a34,34,0,0,1-34-34h0a34,34,0,0,1,34-34h220.9a34,34,0,0,1,34,34h0A34,34,0,0,1,300.13,488.01Z" fill="#21cbae"/>
+      <text id="Diseño_y_modelo_de_datos" data-name="Diseño y modelo de datos" transform="translate(85.563 460.01)" fill="#fff" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Diseño y modelo de datos</tspan></text>
+      <g id="Grupo_878112" data-name="Grupo 878112">
+        <path id="Trazado_602589" data-name="Trazado 602589" d="M674.62,123.33h-274a23.5,23.5,0,0,1-23.5-23.5h0a23.5,23.5,0,0,1,23.5-23.5h274a23.5,23.5,0,0,1,23.5,23.5h0A23.5,23.5,0,0,1,674.62,123.33Z" fill="#1565c0"/>
+        <text id="Bases_de_datos_NoSQL" data-name="Bases de datos NoSQL" transform="translate(443.221 103.334)" fill="#fff" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Bases de datos NoSQL</tspan></text>
+      </g>
+      <g id="Grupo_878113" data-name="Grupo 878113">
+        <path id="Trazado_602590" data-name="Trazado 602590" d="M674.62,351.23h-274a23.5,23.5,0,0,1-23.5-23.5h0a23.5,23.5,0,0,1,23.5-23.5h274a23.5,23.5,0,0,1,23.5,23.5h0A23.5,23.5,0,0,1,674.62,351.23Z" fill="#1565c0"/>
+        <text id="Bases_de_datos_relacionales" data-name="Bases de datos relacionales" transform="translate(422.73 331.232)" fill="#fff" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Bases de datos relacionales</tspan></text>
+      </g>
+      <g id="Grupo_878114" data-name="Grupo 878114">
+        <path id="Trazado_602591" data-name="Trazado 602591" d="M674.62,621.34h-274a23.5,23.5,0,0,1-23.5-23.5h0a23.5,23.5,0,0,1,23.5-23.5h274a23.5,23.5,0,0,1,23.5,23.5h0A23.5,23.5,0,0,1,674.62,621.34Z" fill="#1565c0"/>
+        <text id="Fuentes_de_datos" data-name="Fuentes de datos" transform="translate(466.09 601.343)" fill="#fff" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Fuentes de datos</tspan></text>
+      </g>
+      <g id="Grupo_878115" data-name="Grupo 878115">
+        <path id="Trazado_602592" data-name="Trazado 602592" d="M674.62,855.86h-274a23.5,23.5,0,0,1-23.5-23.5h0a23.5,23.5,0,0,1,23.5-23.5h274a23.5,23.5,0,0,1,23.5,23.5h0A23.5,23.5,0,0,1,674.62,855.86Z" fill="#1565c0"/>
+        <text id="Control_de_acceso_a_datos" data-name="Control de acceso a datos" transform="translate(430.903 835.862)" fill="#fff" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Control de acceso a datos</tspan></text>
+      </g>
+      <path id="Trazado_602593" data-name="Trazado 602593" d="M1049.64,90.58H898.28a23,23,0,0,1-23-23h0a23,23,0,0,1,23-23h151.35a23,23,0,0,1,23,23h0A22.988,22.988,0,0,1,1049.64,90.58Z" fill="#1565c0"/>
+      <text id="Modelo_de_datos" data-name="Modelo de datos" transform="translate(906.74 73.575)" fill="#fff" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Modelo de datos</tspan></text>
+      <path id="Trazado_602594" data-name="Trazado 602594" d="M1049.64,148.53H898.28a23,23,0,0,1-23-23h0a23,23,0,0,1,23-23h151.35a23,23,0,0,1,23,23h0A22.988,22.988,0,0,1,1049.64,148.53Z" fill="#1565c0"/>
+      <text id="Gestores" transform="translate(937.889 131.525)" fill="#fff" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Gestores</tspan></text>
+      <path id="Trazado_602595" data-name="Trazado 602595" d="M1049.64,347.22H898.28a23,23,0,0,1-23-23h0a23,23,0,0,1,23-23h151.35a23,23,0,0,1,23,23h0A22.982,22.982,0,0,1,1049.64,347.22Z" fill="#1565c0"/>
+      <text id="Modelo_lógico" data-name="Modelo lógico" transform="translate(923.193 330.224)" fill="#fff" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Modelo lógico</tspan></text>
+      <path id="Trazado_602596" data-name="Trazado 602596" d="M1049.64,287.22H898.28a23,23,0,0,1-23-23h0a23,23,0,0,1,23-23h151.35a23,23,0,0,1,23,23h0A22.982,22.982,0,0,1,1049.64,287.22Z" fill="#1565c0"/>
+      <text id="Modelo_conceptual" data-name="Modelo conceptual" transform="translate(905.424 270.224)" fill="#fff" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Modelo conceptual</tspan></text>
+      <path id="Trazado_602597" data-name="Trazado 602597" d="M1038.48,907.5H909.44a34.155,34.155,0,0,1-34.16-34.16h0a34.161,34.161,0,0,1,34.16-34.16h129.04a34.155,34.155,0,0,1,34.16,34.16h0A34.161,34.161,0,0,1,1038.48,907.5Z" fill="#1565c0"/>
+      <g id="Grupo">
+        <text id="Basados_en_el_" data-name="Basados en el " transform="translate(921.99 868.184)" fill="#fff" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Basados en el </tspan></text>
+        <text id="computador_principal" data-name="computador principal" transform="translate(897.25 887.384)" fill="#fff" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">computador principal</tspan></text>
+      </g>
+      <path id="Trazado_602598" data-name="Trazado 602598" d="M1049.64,825.18H898.28a23,23,0,0,1-23-23h0a23,23,0,0,1,23-23h151.35a23,23,0,0,1,23,23h0A22.982,22.982,0,0,1,1049.64,825.18Z" fill="#1565c0"/>
+      <text id="Basados_en_roles" data-name="Basados en roles" transform="translate(912.526 808.184)" fill="#fff" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Basados en roles</tspan></text>
+      <path id="Trazado_602599" data-name="Trazado 602599" d="M1049.64,405.17H898.28a23,23,0,0,1-23-23h0a23,23,0,0,1,23-23h151.35a23,23,0,0,1,23,23h0A22.982,22.982,0,0,1,1049.64,405.17Z" fill="#1565c0"/>
+      <text id="Modelo_físico" data-name="Modelo físico" transform="translate(925.253 388.174)" fill="#fff" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Modelo físico</tspan></text>
+      <path id="Trazado_602600" data-name="Trazado 602600" d="M1049.64,644.83H898.28a23,23,0,0,1-23-23h0a23,23,0,0,1,23-23h151.35a23,23,0,0,1,23,23h0A22.988,22.988,0,0,1,1049.64,644.83Z" fill="#1565c0"/>
+      <text id="XLS" transform="translate(959.479 627.828)" fill="#fff" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">XLS</tspan></text>
+      <path id="Trazado_602601" data-name="Trazado 602601" d="M1049.64,584.83H898.28a23,23,0,0,1-23-23h0a23,23,0,0,1,23-23h151.35a23,23,0,0,1,23,23h0A22.988,22.988,0,0,1,1049.64,584.83Z" fill="#1565c0"/>
+      <text id="JSON" transform="translate(953.424 567.828)" fill="#fff" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">JSON</tspan></text>
+      <path id="Trazado_602602" data-name="Trazado 602602" d="M1049.64,524.19H898.28a23,23,0,0,1-23-23h0a23,23,0,0,1,23-23h151.35a23,23,0,0,1,23,23h0A22.988,22.988,0,0,1,1049.64,524.19Z" fill="#1565c0"/>
+      <text id="XML" transform="translate(957.464 507.19)" fill="#fff" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">XML</tspan></text>
+      <path id="Trazado_602603" data-name="Trazado 602603" d="M1049.64,702.78H898.28a23,23,0,0,1-23-23h0a23,23,0,0,1,23-23h151.35a23,23,0,0,1,23,23h0A22.988,22.988,0,0,1,1049.64,702.78Z" fill="#1565c0"/>
+      <text id="TXT" transform="translate(959.69 685.778)" fill="#fff" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">TXT</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Diseño y modelo de datos.',
+    descripcionCurso:
+      'Este componente formativo está diseñado para comprender los principios básicos de las bases de datos NoSQL, las bases relacionales,  y las diferentes fuentes de datos y controles de acceso.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,14 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
       },
     ],
   },
@@ -32,30 +41,29 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Bases de Datos NoSQL',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Bases de datos relacionales',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Fuentes de datos',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Control de acceso a datos',
         desarrolloContenidos: true,
       },
     ],
@@ -101,100 +109,100 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Bases de datos NoSQL',
+      referencia:
+        'FaztCode. (28 de septiembre de 2021). Mongodb para Visual Studio Code Extensión. [Archivo de vídeo]. https://www.youtube.com/watch?v=fZgJHJO81dw',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=fZgJHJO81dw',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Bases de datos relacionales',
+      referencia:
+        'Coronado, D., Rodríguez, R., Tineo, L., & Carrasquel Oropeza, S. (2018). Gestión de Datos Difusos: Atributos Tipo 2 y Tipo 3 en bases de datos relacionales. Publicaciones En Ciencias Y Tecnología, 12(2), 83-95. https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_b4db22235526430295652b34b49ad6dd',
+      tipo: 'Artículo',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_b4db22235526430295652b34b49ad6dd ',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Bases de datos relacionales',
+      significado:
+        'Es un modelo de datos en el que los datos e información se encuentran relacionados por medio de llaves que permiten consultar la información mediante una serie de secuencias de comandos llamada instrucciones SQL.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Confidencialidad',
+      significado:
+        'Esta característica se relaciona con las credenciales de acceso, esto quiere decir que la información debe tener un dueño o responsable para su manipulación y uso. Las redes sociales o correo electrónico son ejemplo de ello, ambos tienen mecanismos de acceso basados en usuario y contraseña.',
+    },
+    {
+      termino: 'Control de acceso',
+      significado:
+        'Son reglas y políticas que se implementan para realizar un proceso de administración adecuado de los datos y la información almacenada en los sistemas de información. Al tiempo, se deben crear los mecanismos para el acceso de los datos.',
+    },
+    {
+      termino: 'Disponibilidad',
+      significado:
+        'Disponibilidad:	Es una característica de los sistemas de almacenamiento al establecer los mecanismos y tiempos en los cuales el sistema de información responderá a los usuarios que requieren acceso a la información.',
+    },
+    {
+      termino: 'Fuentes de datos',
+      significado:
+        'Se conoce como fuente de datos a cualquier elemento que pueda suministrar datos e información sin importar su formato o lugar de almacenamiento. Las fuentes de datos se originan a partir de las diferentes interacciones que tienen a diario los sistemas de información.',
+    },
+    {
+      termino: 'Gestores',
+      significado:
+        'O DBA, son sistemas de administración de bases de datos que se destacan por su facilidad de uso y por la integración que le ofrece al usuario y/o administradores de bases de datos.',
+    },
+    {
+      termino: 'Integridad',
+      significado:
+        'Es la capacidad que tiene un sistema de información para realizar las operaciones procedimentales de manera adecuada, es decir que los procesos que han sido programados dentro del sistema se realizan de manera adecuada y arrojan los resultados esperados.',
+    },
+    {
+      termino: 'Modelo conceptual',
+      significado:
+        'El modelo conceptual de una base de datos es la manera de interpretar las necesidades que se tienen en un modelo de almacenamiento a una base de datos, permitiendo comprender, inicialmente, cómo estará conectado el negocio.',
+    },
+    {
+      termino: 'Modelo de datos',
+      significado:
+        'El modelo de datos está determinado por la forma en la cual se organizan los datos y los campos de la base de datos.',
+    },
+    {
+      termino: 'Modelo físico',
+      significado:
+        'El modelo físico constituye la etapa de implementación de la base de datos en un sistema de almacenamiento, en un servidor de bases de datos, en el que se codifica de acuerdo al modelo lógico, creando de manera funcional todo el sistema de almacenamiento que sirve de soporte a la aplicación informática.',
+    },
+    {
+      termino: 'Modelo lógico',
+      significado:
+        'El modelo físico constituye la etapa de implementación de la base de datos en un sistema de almacenamiento, en un servidor de bases de datos, en el que se codifica de acuerdo al modelo lógico, creando de manera funcional todo el sistema de almacenamiento que sirve de soporte a la aplicación informática.',
+    },
+    {
+      termino: 'NoSQL',
+      significado:
+        'Nace como una alternativa de almacenamiento de información, posee una estructura distinta a la convencional, comúnmente denominada bases de datos relacional.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Graterol, Y. (2021). MongoDB en español, tomo I: El principio. Blog Facialix',
+      link:
+        'https://blog.facialix.com/wp-content/uploads/2021/11/MongoDB-El-principio.pdf',
+    },
+    {
+      referencia:
+        'Ley 1273 de 2009. Por medio de la cual se modifica el Código Penal, se crea un nuevo bien jurídico tutelado – denominado “de la protección de la información y de los datos” – y se preservan integralmente los sistemas que utilicen las tecnologías de la información y las comunicaciones, entre otras disposiciones. Enero de 2009. DO 47.223.',
       link: '',
     },
+    {
+      referencia: 'Oracle. (2010). Mecanismos de control de acceso. Oracle. ',
+      link: 'https://docs.oracle.com/cd/E19620-01/805-7644/x-5m6d6/index.html',
+    },
   ],
-  creditos: {
-    liderEquipo: [
-      {
-        nombre: 'Maria Camila Garcia Santamaria',
-        cargo: 'Líder del equipo',
-        centro: 'Dirección General',
-      },
-    ],
-    contenidoInstruccional: [
-      {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-    ],
-    desarrolloProducto: [
-      {
-        nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Diseño web',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-    ],
-    gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-    ],
-  },
   // creditosInicio: [
   //   {
   //     titulo: 'En alianza',

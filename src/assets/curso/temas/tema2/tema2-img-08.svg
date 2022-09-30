@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1030" height="258.906" viewBox="0 0 1030 258.906">
+  <g id="Grupo_895120" data-name="Grupo 895120" transform="translate(-18.783 -16.113)">
+    <path id="Trazado_623056" data-name="Trazado 623056" d="M585.727,89H487.9V229.077H399.383" transform="translate(42.522 8.143)" fill="none" stroke="#ef3c79" stroke-miterlimit="10" stroke-width="2"/>
+    <g id="Grupo_895116" data-name="Grupo 895116" transform="translate(595.708 16.113)">
+      <rect id="Rectángulo_300749" data-name="Rectángulo 300749" width="453.075" height="257.852" rx="16" transform="translate(0 1.054)" fill="#eaf1f6"/>
+      <path id="Trazado_623057" data-name="Trazado 623057" d="M990.8,65.636V32.972a16.859,16.859,0,0,0-16.858-16.859H554.587a16.859,16.859,0,0,0-16.858,16.859V65.636Z" transform="translate(-537.729 -16.113)" fill="#ef3c79"/>
+    </g>
+    <text id="PKId_varchar_11_" data-name="PKId                                                              varchar(11)" transform="translate(618.626 100.914)" fill="#3c3c3b" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">PKId                                                              varchar(11)</tspan></text>
+    <text id="Descripción_varchar_80_" data-name="Descripción                                                 varchar(80)" transform="translate(618.105 133.224)" fill="#3c3c3b" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">Descripción                                                 varchar(80)</tspan></text>
+    <text id="Sexo" transform="translate(804.084 48.528)" fill="#fff" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Sexo</tspan></text>
+    <g id="Grupo_895117" data-name="Grupo 895117" transform="translate(469.551 219.711)">
+      <line id="Línea_461" data-name="Línea 461" x1="20.011" y2="17.788" transform="translate(0 16.676)" fill="none" stroke="#ef3c79" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Línea_462" data-name="Línea 462" x2="20.011" y2="17.788" fill="none" stroke="#ef3c79" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Línea_463" data-name="Línea 463" y2="26.681" transform="translate(18.343 3.891)" fill="none" stroke="#ef3c79" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g id="Grupo_895118" data-name="Grupo 895118" transform="translate(18.783 16.113)">
+      <rect id="Rectángulo_300750" data-name="Rectángulo 300750" width="453.075" height="257.852" rx="16" transform="translate(0 1.054)" fill="#eaf1f6"/>
+      <path id="Trazado_623058" data-name="Trazado 623058" d="M471.859,65.636V32.972A16.859,16.859,0,0,0,455,16.113H35.642A16.86,16.86,0,0,0,18.783,32.972V65.636Z" transform="translate(-18.783 -16.113)" fill="#ef3c79"/>
+    </g>
+    <text id="PKIdentificación_varchar_11_" data-name="PKIdentificación                                         varchar(11)" transform="translate(40.208 100.914)" fill="#3c3c3b" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">PKIdentificación                                         varchar(11)</tspan></text>
+    <text id="Nombre_varchar_50_" data-name="Nombre                                                        varchar(50)" transform="translate(40.208 133.224)" fill="#3c3c3b" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">Nombre                                                        varchar(50)</tspan></text>
+    <text id="Contacto_int" data-name="Contacto                                                                      int" transform="translate(40.208 166.966)" fill="#3c3c3b" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">Contacto                                                                      int</tspan></text>
+    <text id="Correo_varchar_80_" data-name="Correo                                                           varchar(80)" transform="translate(40.208 204.643)" fill="#3c3c3b" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">Correo                                                           varchar(80)</tspan></text>
+    <text id="FKid_Sexo_int" data-name="FKid_Sexo                                                                    int" transform="translate(40.208 243.263)" fill="#3c3c3b" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">FKid_Sexo                                                                    int</tspan></text>
+    <text id="Clientes" transform="translate(204.788 48.528)" fill="#fff" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Clientes</tspan></text>
+    <g id="Grupo_895119" data-name="Grupo 895119" transform="translate(581.001 83.525)">
+      <line id="Línea_464" data-name="Línea 464" y1="26.681" transform="translate(8.338)" fill="none" stroke="#ef3c79" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Línea_465" data-name="Línea 465" y1="26.681" fill="none" stroke="#ef3c79" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
