@@ -66,7 +66,7 @@
 
       .titulo-sexto.color-acento-botones.mt-5
         h5 Figura 1.
-         span  Modelo de archivo JSONa
+        span Modelo de archivo JSONa
 
       .col-lg-12.mt-3
             figure
@@ -109,24 +109,24 @@
     p.mt-5 #[b Algunos de estos gestores, son:]
 
     .tarjeta.color--secundario.p-8.p-md-5.mb-5
-      .row.justify-content-center
-        .col-6
+      .row.justify-content-center.mb-5
+        .col-xl-6.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
           .crd_hover_txt
             .crd_hover_txt--img
               figure
                 img(src="@/assets/curso/temas/tema1/tema1-img-08.svg", alt="alt")
             .crd_hover_txt--body
-              h4.mb-3 MongoDB. 
-              p.mb-0 Es un gestor de bases de datos que trabaja bajo la filosofía NoSQL, su proceso de manejo de la información es a nivel de archivos, MongoDB arma la secuencia de información que, posteriormente, puede ser relacionada mediante diferentes archivos planos. Adicional a esto, Mongo es una base de datos de código libre, es decir, puede ser modificada de acuerdo a las necesidades del usuario o de la organización que la implemente, su manejo interior se hace mediante archivos JSON que guardan las estructuras de la información para luego ser procesada y consultada.
+              h4.font-size-tarjeta-avatar-h.mb-3 MongoDB. 
+              p.font-size-tarjeta-avatar-p.mb-0 Es un gestor de bases de datos que trabaja bajo la filosofía NoSQL, su proceso de manejo de la información es a nivel de archivos, MongoDB arma la secuencia de información que, posteriormente, puede ser relacionada mediante diferentes archivos planos. Adicional a esto, Mongo es una base de datos de código libre, es decir, puede ser modificada de acuerdo a las necesidades del usuario o de la organización que la implemente, su manejo interior se hace mediante archivos JSON que guardan las estructuras de la información para luego ser procesada y consultada.
 
-        .col-6
+        .col-xl-6.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
           .crd_hover_txt
             .crd_hover_txt--img
               figure
                 img(src="@/assets/curso/temas/tema1/tema1-img-09.svg", alt="alt")
             .crd_hover_txt--body
-              h4.mb-3 Cassandra.
-              p.mb-0 Es un gestor de bases de datos orientado a la filosofía NoSQL, permite trabajar con grandes volúmenes de información. Su código es abierto, permitiendo cualquier modificación de acuerdo a las necesidades tecnológicas de la organización o de quien requiera utilizar la herramienta con propósitos particulares o empresariales. Se encuentra escrito en lenguaje Java, posibilitando una amplia capacidad de adaptación en diferentes sistemas operativos, de manera distribuida, con balanceo de carga.
+              h4.font-size-tarjeta-avatar-h.mb-3 Cassandra.
+              p.font-size-tarjeta-avatar-p.mb-0 Es un gestor de bases de datos orientado a la filosofía NoSQL, permite trabajar con grandes volúmenes de información. Su código es abierto, permitiendo cualquier modificación de acuerdo a las necesidades tecnológicas de la organización o de quien requiera utilizar la herramienta con propósitos particulares o empresariales. Se encuentra escrito en lenguaje Java, posibilitando una amplia capacidad de adaptación en diferentes sistemas operativos, de manera distribuida, con balanceo de carga.
 
     .crd.clr-paleYellow.p-4
       .row.justify-content-center.align-items-center.mb-4

@@ -117,14 +117,14 @@
 
       .titulo-sexto.color-acento-botones.mt-5
         h5 Figura 2.
-         span Ejemplo Modelo conceptual
+        span Ejemplo Modelo conceptual
             
       .col-lg-10.mt-5.mb-5
         figure
           img(src='@/assets/curso/temas/tema2/tema2-img-06.svg', alt='Texto que describa la imagen')         
 
       .col-lg-10.mt-5.mb-5
-        .cajon.color-acento-botones.p-4
+        .cajon.color--secundario.p-4
           p Como se puede observar en este diagrama, existe una relación entre dos entidades, una llamada clientes y la otra llamada sexo. En este caso particular, se evidencia que un sexo (hombre – mujer) está asociado a varios clientes, es decir, varios clientes pueden estar asociados al sexo ‘hombre’ y otros al sexo ‘mujer’, de esta forma,  se interpreta la asociación de la información en el sistema informático desde la comprensión literal del proceso real, al proceso del sistema de información a desarrollar.
 
     .titulo-segundo.color-acento-botones.mt-5
@@ -173,7 +173,7 @@
 
     .titulo-sexto.color-acento-botones.mt-5
       h5 Figura 4.
-      span  Código implementación modelo físico
+      span Código implementación modelo físico
 
     .row.justify-content-center.mb-4
       .col-lg-6

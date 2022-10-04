@@ -61,7 +61,7 @@
         .titulo-sexto.color-acento-botones.mt-5
           h5 Características de los tipos de fuentes
 
-        SlyderF.mb-5(columnas="col-6 col-lg-6 col-xl-6")
+        SlyderF.mb-5(columnas="col-12 col-lg-6 col-xl-6 col-xs-12")
           .tarjeta-avatar
             img(src='@/assets/curso/temas/tema3/tema3-img-03.svg' alt='AvatarTop')
             .tarjeta.color-secundario.p-4

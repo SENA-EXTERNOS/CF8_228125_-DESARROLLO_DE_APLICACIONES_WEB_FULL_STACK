@@ -11,7 +11,7 @@
       .col-lg-12.mb-lg-0
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(data-aos="flip-up")
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/tema4-img-01.svg')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/tema4-img-01.png')})`}"
           )
           .bloque-texto-g__texto.p-4
            p.mb-0 Los controles de acceso a datos son reglas y políticas que deben implementarse para realizar un proceso de administración adecuado de los datos e información almacenada en los sistemas de información, esto quiere decir que se debe no solo crear los mecanismos para el acceso de los datos, los cuales deben incluir las diferentes configuraciones y creación de usuarios, contraseñas, niveles de acceso y todo lo referente a las credenciales de acceso que se deben tener para acceder a la información almacenada, además, debemos tener en cuenta que la información es un activo importante para las organizaciones, y se debe velar porque esta información se encuentre almacenada de manera segura,  y que las personas que tengan acceso a ella estén autorizados para realizar las operaciones requeridas para ser usada en la organización.
@@ -26,7 +26,7 @@
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-12
             figure(data-aos="fade-right")
-              img(src="@/assets/curso/temas/tema4/tema4-img-02.svg")
+              img(src="@/assets/curso/temas/tema4/tema4-img-02.png")
 
 
     TabsA.color-acento-botones
@@ -37,7 +37,7 @@
         h4 Acceso abusivo a un sistema informático
         p Quien, sin autorización o fuera de lo acordado, acceda, en todo o en parte, a un sistema informático protegido o no con una medida de seguridad, o se mantenga dentro del mismo en contra de la voluntad de quien tenga el legítimo derecho a excluirlo, incurrirá en pena de prisión de cuarenta y ocho (48) a noventa y seis (96) meses y en multa de cien (100) a mil (1.000) salarios mínimos legales mensuales vigentes.
     
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-3.mt-4
       .col-lg-10.estiloCol
         p La Ley 1273 explica las sanciones que se aplicarían si una persona, utilizando medidas o procesos informáticos, atenta contra la información o los datos almacenados en un sistema, de hacerlo, incurriría en sanciones significativas. Teniendo en cuenta que el propósito de las personas dedicadas al crimen cibernético es violar y atentar contra las medidas de seguridad que poseen los sistemas, se hace relevante tener en cuenta cada uno de estos procesos y estar atentos a todo lo ocurrido en una infraestructura y sistemas de almacenamiento de los sistemas. 
     img(src="@/assets/curso/temas/tema4/tema4-img-decorativa-01.svg", alt="Texto que describa la imagen").tema4-decorativa-01    
@@ -52,7 +52,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-12
             figure(data-aos="fade-right")
-              img(src="@/assets/curso/temas/tema4/tema4-img-03.svg")    
+              img(src="@/assets/curso/temas/tema4/tema4-img-03.png")
       .col-lg-7
         .crd.clr-paleBlue.p-4.mb-5
           p El control de acceso basado en roles (RBAC), es una función de seguridad para controlar el acceso de usuarios a tareas que habitualmente están restringidas a un superusuario que, mediante la aplicación de atributos de seguridad a procesos y usuarios, el RBAC puede dividir sus capacidades entre varios administradores. Tal gestión de derechos de procesos se implementan mediante privilegios, a través de RBAC como alternativa al modelo de superusuario. (Oracle, 2010.)
@@ -74,7 +74,7 @@
 
       .col-lg-5
         figure(data-aos="fade-right")
-          img(src="@/assets/curso/temas/tema4/tema4-img-04.svg")
+          img(src="@/assets/curso/temas/tema4/tema4-img-04.png")
 
     separador
 
@@ -89,14 +89,14 @@
         .row.justify-content-center.align-items-center
           .col-lg-12
             figure(data-aos="fade-right")
-              img(src="@/assets/curso/temas/tema4/tema4-img-05.svg")          
+              img(src="@/assets/curso/temas/tema4/tema4-img-05.png")        
 
     TabsC.color-primario
       .py-3.py-md-4(titulo="Protección de la información")
         .row
           .col-md-6
             figure(data-aos="fade-right")
-              img(src='@/assets/curso/temas/tema4/tema4-img-06.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema4/tema4-img-06.png', alt='Texto que describa la imagen')
 
           .col-md-6.mb-4.mb-md-0
             h4 Protección de la información
@@ -105,7 +105,7 @@
         .row
           .col-md-6
             figure(data-aos="fade-right")
-              img(src='@/assets/curso/temas/tema4/tema4-img-07.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema4/tema4-img-07.png', alt='Texto que describa la imagen')
 
           .col-md-6.mb-4.mb-md-0
             h4 Integridad
@@ -114,7 +114,7 @@
         .row
           .col-md-6
             figure(data-aos="fade-right")
-              img(src='@/assets/curso/temas/tema4/tema4-img-08.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema4/tema4-img-08.png', alt='Texto que describa la imagen')
 
           .col-md-6.mb-4.mb-md-0
             h4 Disponibilidad
@@ -135,7 +135,7 @@
         .row
           .col-md-6
             figure(data-aos="fade-right")
-              img(src='@/assets/curso/temas/tema4/tema4-img-09.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema4/tema4-img-09.png', alt='Texto que describa la imagen')
 
           .col-md-6.mb-4.mb-md-0
             h4 Confidencialidad
