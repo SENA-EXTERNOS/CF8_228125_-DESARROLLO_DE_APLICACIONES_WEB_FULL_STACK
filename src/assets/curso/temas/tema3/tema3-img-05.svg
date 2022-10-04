@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="149" height="149" viewBox="0 0 149 149">
+  <g id="Grupo_897688" data-name="Grupo 897688" transform="translate(14151.968 8552.537)">
+    <g id="Grupo_882264" data-name="Grupo 882264" transform="translate(-14859.968 -15918.537)">
+      <g id="Elipse_5002" data-name="Elipse 5002" transform="translate(708 7366)" fill="#ef3c79" stroke="#285894" stroke-width="4">
+        <circle cx="74.5" cy="74.5" r="74.5" stroke="none"/>
+        <circle cx="74.5" cy="74.5" r="72.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Grupo_895322" data-name="Grupo 895322" transform="translate(-12043.544 -8684.852)">
+      <path id="Trazado_623881" data-name="Trazado 623881" d="M-2016.034,161.165h-38.611c-3.819,0-6.915,3.756-6.915,8.39v74.52c0,4.634,3.1,8.39,6.915,8.39h50.846c3.82,0,6.916-3.756,6.916-8.39V185.295C-2003.268,177.263-2010.634,167.989-2016.034,161.165Z" transform="translate(-2.54)" fill="#fff"/>
+      <rect id="Rectángulo_300772" data-name="Rectángulo 300772" width="52.805" height="20.234" rx="2.681" transform="translate(-2077.425 177.944)" fill="#37b73e"/>
+      <text id="_.XLS" data-name=".XLS" transform="translate(-2065.743 191.544)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">.XLS</tspan></text>
+      <path id="Trazado_623882" data-name="Trazado 623882" d="M-2007.355,161.165v17.048c0,3.819,2.516,6.916,5.621,6.916h13.258Z" transform="translate(-11.219)" fill="#e5e5e5"/>
+      <line id="Línea_484" data-name="Línea 484" x2="40.6" transform="translate(-2051.317 210.044)" fill="none" stroke="#e5e5e5" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <line id="Línea_485" data-name="Línea 485" x2="40.6" transform="translate(-2051.317 218.812)" fill="none" stroke="#e5e5e5" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <line id="Línea_486" data-name="Línea 486" x2="40.6" transform="translate(-2051.317 227.58)" fill="none" stroke="#e5e5e5" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <line id="Línea_487" data-name="Línea 487" x2="40.6" transform="translate(-2051.317 236.348)" fill="none" stroke="#e5e5e5" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

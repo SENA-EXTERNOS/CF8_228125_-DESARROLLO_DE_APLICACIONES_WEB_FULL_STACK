@@ -32,7 +32,7 @@
   z-index: 2
 
 .clr-paleBlue
-  background-color: #21CBAE
+  background-color: #CDF0E4
 
 .clr-paleYellow
   background-color: #feca2f2d
@@ -46,12 +46,12 @@
   h2
     color:#F9F7EC
 
-.tema1-decorativa-01
-  position: absolute
-  top: 71%
-  right: 3.5%
-  width: 25%
-  z-index: 1
+.tarjeta.color-primario
+  p
+    color:#F9F7EC
+  h2
+    color:#F9F7EC        
+
 
 .crd_hover_txt
   position: relative  
@@ -69,24 +69,101 @@
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
     transform: translateY(calc( 100% - 3.85rem ))
     background-color: #21CBAE
+  
   @media (min-width:1200px) and (max-width:1400px)  
     .crd_hover_txt--body
       p
         font-size: 0.85em
+
+.tarjeta-avatar
+  width: 500px
+  height: 600px
 
 .tarjeta.color--secundario
   position: relative
   background-color: #0B5999;
   z-index: 2
 
+.slyder-a__tipo-b .slyder-a__btn--atrs
+  background-color: #EEAC3A
+
+.slyder-a__tipo-b .slyder-a__btn--sigt
+  background-color: #EEAC3A
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs  
+  border: none
+
+.slyder-a__bullets__item--active
+  background-color: #8C5BE1 !important
+  border: none
+
+.slyder-a__bullets__item
+  background-color: #AFAFAF  
+
+.img-infografica-b__modal__contenido div > * 
+    color: #12263F !important  
+
+.l
+  transform: scaleX(-1)
+
+.imgCont
+  max-width: 700px
+
+.img-infografica__item, .img-infografica-b__item
+  width: 3.5%
+
+.img-infografica__item__dot:before, .img-infografica__item__dot:after, .img-infografica-b__item__dot:before, .img-infografica-b__item__dot:after
+  opacity: .3 !important
+
+.custom
+  .img-infografica-b__modal
+    background: linear-gradient(90deg, rgba(32,56,81,1) 0%, rgba(60,108,155,1) 93%)
+    
+.cajon.color-secundario:before
+  background-color: #4DD0E1
+
+.cajon.color-secundario
+  background-color: #0B5999
+  p
+    color:#F9F7EC 
+
+.cajon.color-primario:before
+  background-color: #EF3C79
+
+.cajon.color-primario
+  background-color: #FBCEDD
+  p
+    color:#070707       
+
+.acordion__titulo  
+  color:#0B5999
+
+.acordion__accion__btn--a
+  background-color:#0B5999
+  i
+    color:#F9F7EC
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero 
+  span
+    color:#F9F7EC
+
+.cont_bg-2
+  margin-top: -70px   
+
+.bloque-texto-g__texto
+  z-index: 1  
+
+.tema2-decorativa-01
+  position: absolute
+  top: 58.7%
+  right: 1%
+  width: 30%
+
 .img-infografica-b.color-primario .img-infografica-b__item__dot:before
   background-color: #21CBAE 
 
 .img-infografica-b.color-primario .img-infografica-b__item__dot:after
   background-color: #21CBAE   
-
-.img-infografica-b__modal
-  background-color: #F6F6F6
 
 .img-infografica-b__modal__btn-cerrar 
   i
@@ -112,6 +189,57 @@
 
   background-color: #FBCEDD
 
+.tarjeta.acordeonA
+  background-color: #F6F6F6
+
+.acordion__accion__btn--a
+  background-color: #F6F6F6 !important
+  i 
+    color: #21CBAE
+
+.acordion__activo
+  background-color: #21cbaf2a !important
+
+.tarjeta.acordeonA
+  .acordion__accion__btn--a
+    i 
+      color: #21CBAE
+
+.tarjeta--slyder  
+  height: 100%
+  background-color: white
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+
+
+.img-infografica-b__item__tooltip
+  background-color: #21CBAE
+
+.color--primario
+  .img-infografica-b__modal
+    background-color: #F6F6F6       
+  .img-infografica-b__item
+    .img-infografica-b__item__dot
+      &::before
+        background-color: #21CBAE
+      &::after
+        background-color: #21CBAE
+
+.color-primario
+  .img-infografica-b__modal
+    background-color: #FECB2F 
+
+.tarjeta.color-acento-botones--borde
+  border: none
+
+.tema4-decorativa-01    
+  position: absolute
+  top: 32%
+  right: 11%
+  width: 30%
+  z-index: 1
+
+.col-lg-10.estiloCol
+  z-index: 2
 
 .imagen-sintesis-1
   position: absolute
@@ -132,92 +260,11 @@
 	100% 
 		opacity: 1;
 	
-
 	25%,
 	75% 
 		opacity: 0;
-//////////////////////////////////////
-.cajon.color-secundario:before
-  background-color: #4DD0E1
-
-.cajon.color-secundario
-  background-color: #0B5999
-  p
-    color:#F9F7EC
-
-.acordion__titulo  
-  color:#0B5999
-
-.acordion__accion__btn--a
-  background-color:#0B5999
-  i
-    color:#F9F7EC
 
 
-
-.clr-paleBlue
-  background-color: #E3E8F2
-
-.clr--paleBlue
-  background-color: #C5E4EF
-
-.clr-Blue
-  color: #0B5999
-
-.col-md-10
-  h3
-    text-align:left!important    
-  p
-    text-align:left!important
-  ul
-    text-align:left!important      
-
-.crd--avatarHorizontal
-  position: relative
-  padding-right: 5rem
-  & > *
-    position: relative
-  h5 
-    color: #12263F
-  p 
-    margin-bottom: 0
-  &::before  
-    position: absolute 
-    content: ''
-    top: 0
-    right: 0
-    width: calc( 100% - 60px)
-    height: 100%
-    background-color: #C5E5FE
-
-.lista-ol--cuadro__vineta
-  background-color:#4DD0E1
-
-.pasos-a.color-primario .pasos-a__circle 
-  div
-    color:#F9F7EC
-
-.titulo-principal.color-acento-contenido .titulo-principal__numero 
-  span
-    color:#F9F7EC
-
-.cont_bg-2
-  margin-top: -70px   
-
-.bloque-texto-g__texto
-  z-index: 1  
-
-.tema2-decorativa-01
-  position: absolute
-  top: 57%
-  right: 11%
-  width: 25%
-
-.tema2-decorativa-02
-  position: absolute
-  top: 75%
-  right: 50%
-  width: 25%
 
 
  

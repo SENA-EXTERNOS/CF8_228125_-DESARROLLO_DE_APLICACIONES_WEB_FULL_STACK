@@ -66,7 +66,7 @@
 
       .titulo-sexto.color-acento-botones.mt-5
         h5 Figura 1.
-         span Modelo de archivo JSONa
+         span  Modelo de archivo JSONa
 
       .col-lg-12.mt-3
             figure
@@ -97,21 +97,21 @@
           h2 Gestores
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-8
+      .col-lg-12
         .row.justify-content-up.align-items-center.mb-4
-          .col-lg-12
+          .col-lg-9
             .cajon.color-acento-contenido.p-4
               p Existen diversos gestores de bases de datos NoSQL, algunos de ellos destacan por su facilidad de uso y por la integración que ofrecen al usuario o a los administradores de bases de datos (DBA).
-      .col-lg-4
-        figure
-          img(src="@/assets/curso/temas/tema1/tema1-img-07.svg").tema1-decorativa-01 
+          .col-lg-3
+            figure(data-aos="fade-left")
+              img(src="@/assets/curso/temas/tema1/tema1-img-07.png")
     
     p.mt-5 #[b Algunos de estos gestores, son:]
 
     .tarjeta.color--secundario.p-8.p-md-5.mb-5
       .row.justify-content-center
         .col-6
-          .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt
             .crd_hover_txt--img
               figure
                 img(src="@/assets/curso/temas/tema1/tema1-img-08.svg", alt="alt")
@@ -120,7 +120,7 @@
               p.mb-0 Es un gestor de bases de datos que trabaja bajo la filosofía NoSQL, su proceso de manejo de la información es a nivel de archivos, MongoDB arma la secuencia de información que, posteriormente, puede ser relacionada mediante diferentes archivos planos. Adicional a esto, Mongo es una base de datos de código libre, es decir, puede ser modificada de acuerdo a las necesidades del usuario o de la organización que la implemente, su manejo interior se hace mediante archivos JSON que guardan las estructuras de la información para luego ser procesada y consultada.
 
         .col-6
-          .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt
             .crd_hover_txt--img
               figure
                 img(src="@/assets/curso/temas/tema1/tema1-img-09.svg", alt="alt")
@@ -134,7 +134,7 @@
           p Los gestores de bases de datos permiten realizar las funciones de administración y mantenimiento de los datos de manera fácil y sencilla, esto ayuda a los administradores de estos sistemas a realizar labores de mantenimiento y gestión de manera rápida y eficiente. No obstante, en algunas ocasiones este proceso se suele llevar a cabo a través de consolas de administración, dilatando el proceso al ser una labor más compleja, especialmente con respecto a las copias de seguridad, ya que normalmente, en estos sistemas, es posible ejecutar las copias de manera automática, sin requerir una persona que se dedique a realizar este proceso a diario en consola, cometiendo así menos errores al momento de manipular la información. Otros procesos pueden ser actualización de datos, inserción de datos nuevos o eliminación de datos que ya no corresponden o no se necesitan en los procesos de negocio de la organización. Ahora bien, los gestores de bases de datos tienen muchas ventajas, una de ellas es la forma de conectarse a diferentes bases de datos, independiente del motor de las bases, es decir, se puede administrar varias bases de datos al tiempo con múltiples conexiones, significando una gran ventaja desde el punto de vista de licenciamiento y la eficiencia.
         .col-lg-5
           figure(data-aos="zoom-in")
-            img(src="@/assets/curso/temas/tema1/tema1-img-10.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/curso/temas/tema1/tema1-img-10.png", alt="Texto que describa la imagen")
       
 </template>
 

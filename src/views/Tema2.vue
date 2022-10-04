@@ -20,7 +20,7 @@
 
     .row.justify-content-center
       .col-lg-11
-        ImagenInfograficaB.color-primario
+        ImagenInfograficaB.color--primario
           template(v-slot:imagen)
             figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema2/tema2-img-02.svg', alt='Texto que describa la imagen')
