@@ -89,11 +89,11 @@
         .crd.clr-paleBlue.p-4
           p Los modelos de datos son sumamente necesarios en los sistemas de información, permiten visualizar la manera en la que la información y los datos serán almacenados y procesados de acuerdo a las solicitudes del sistema de información. Es importante tener en cuenta que un sistema de información requiere de un sistema de almacenamiento eficiente y estable, no solo para almacenar la información, también, proporciona las bases necesarias que permite a los usuarios recibir los datos de manera íntegra, segura y en tiempos razonables; claro está, de acuerdo con la capacidad de respuesta de los sistemas implementados.
 
-        p.mt-4 Para conocer el proceso de codificación de una base de datos en MongoDB, se invita a ver el video Mongodb para Visual Studio Code Extensión, encontrado en el material complementario.
+        p.mt-4 Para conocer el proceso de codificación de una base de datos en MongoDB, se invita a ver el video Mongodb para Visual Studio Code #[b Extensión], encontrado en el material complementario.
     
     separador
 
-    .titulo-segundo.color-acento-botones.mt-5
+    .titulo-segundo.color-acento-botones.mt-1
           h2 Gestores
 
     .row.justify-content-center.align-items-center.mb-4
@@ -104,8 +104,10 @@
               p Existen diversos gestores de bases de datos NoSQL, algunos de ellos destacan por su facilidad de uso y por la integración que ofrecen al usuario o a los administradores de bases de datos (DBA).
           .col-lg-3
             figure(data-aos="fade-left")
-              img(src="@/assets/curso/temas/tema1/tema1-img-07.png")
-    
+              img(src="@/assets/curso/temas/tema1/tema1-img-07.png").tema1-decorativa-01
+            
+    img(src="@/assets/curso/temas/tema1/tema1-img-decorativa-01.svg").tema1-decorativa-02
+
     p.mt-5 #[b Algunos de estos gestores, son:]
 
     .tarjeta.color--secundario.p-8.p-md-5.mb-5

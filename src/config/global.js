@@ -118,7 +118,7 @@ export default {
     {
       tema: 'Bases de datos relacionales',
       referencia:
-        'Coronado, D., Rodríguez, R., Tineo, L., & Carrasquel Oropeza, S. (2018). Gestión de Datos Difusos: Atributos Tipo 2 y Tipo 3 en bases de datos relacionales. Publicaciones En Ciencias Y Tecnología, 12(2), 83-95. https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_b4db22235526430295652b34b49ad6dd',
+        'Coronado, D., Rodríguez, R., Tineo, L., & Carrasquel Oropeza, S. (2018). Gestión de Datos Difusos: Atributos Tipo 2 y Tipo 3 en bases de datos relacionales. <i> Publicaciones En Ciencias Y Tecnología</i>, 12(2), 83-95.',
       tipo: 'Artículo',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_b4db22235526430295652b34b49ad6dd ',
@@ -189,7 +189,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Graterol, Y. (2021). MongoDB en español, tomo I: El principio. Blog Facialix',
+        'Graterol, Y. (2021). <i>MongoDB en español, tomo I: El principio.</i> Blog Facialix',
       link:
         'https://blog.facialix.com/wp-content/uploads/2021/11/MongoDB-El-principio.pdf',
     },
@@ -199,7 +199,8 @@ export default {
       link: '',
     },
     {
-      referencia: 'Oracle. (2010). Mecanismos de control de acceso. Oracle. ',
+      referencia:
+        'Oracle. (2010). <i>Mecanismos de control de acceso.</i> Oracle. ',
       link: 'https://docs.oracle.com/cd/E19620-01/805-7644/x-5m6d6/index.html',
     },
   ],

@@ -176,19 +176,75 @@
   margin-top: -70px   
 
 .bloque-texto-g__texto
-  z-index: 1  
+  z-index: 1
+  width: 73%
+
+.bloque-texto-g.color--secundario
+  padding: 6rem!important 
+  background-color: #0B5999
+  .bloque-texto-g__texto
+    left: 5%
+
+@media (max-width:500px)    
+  .bloque-texto-g.color--secundario
+    padding: 0.8rem!important 
+    background-color: #0B5999
+    .bloque-texto-g__texto
+      left: -15%
 
 .tema2-decorativa-01
   position: absolute
-  top: 58.7%
-  right: 1%
+  top: 28%
+  right: 0%
+  width: 25%
+  z-index: 1
+
+@media (max-width:500px)
+  .tema2-decorativa-01
+    position: absolute
+    top: 37%
+    right: 0%
+    width: 50%
+    z-index: 1  
+
+.tema2.Mindex  
+  position: relative
+  z-index: 2
+
+.tema2-decorativa-02
+  position: absolute
+  top: 52%
+  right: 70%
+  width: 30%
+  z-index: 1
+
+@media (max-width:500px)    
+  .tema2-decorativa-02
+    position: absolute
+    top: 49%
+    right: 50%
+    width: 50%
+    z-index: 1 
+
+.tema2-decorativa-03
+  position: absolute
+  top: 57.5%
+  right: 2%
   width: 30%
 
+@media (max-width:500px)    
+  .tema2-decorativa-03
+    position: absolute
+    top: 58%
+    right: 47%
+    width: 50%
+    z-index: 1  
+
 .img-infografica-b.color-primario .img-infografica-b__item__dot:before
-  background-color: #21CBAE 
+  background-color: #ffffff4d 
 
 .img-infografica-b.color-primario .img-infografica-b__item__dot:after
-  background-color: #21CBAE   
+  background-color: #ffffff4d 
 
 .img-infografica-b__modal__btn-cerrar 
   i
@@ -201,6 +257,8 @@
   li
     .lista-ol--cuadro__vineta
       background-color: #3BC192 
+  position: relative
+  z-index: 2
 
 .color-acento-botones2      
   &::before  
@@ -245,16 +303,46 @@
   .img-infografica-b__item
     .img-infografica-b__item__dot
       &::before
-        background-color: #21CBAE
+        background-color: #ffffff4d
       &::after
-        background-color: #21CBAE
+        background-color: #ffffff4d
+
+.tarjeta.color-secundario
+  i 
+    color: #FECB2F
 
 .color-primario
   .img-infografica-b__modal
     background-color: #FECB2F 
 
+.color-acento-botones
+  i
+    color: #EF3C79
+
+.boton.boton--b
+  background-color: #FECB2F
+
 .tarjeta.color-acento-botones--borde
   border: none
+
+.tema1-decorativa-01
+  position: relative
+  z-index: 2
+
+.tema1-decorativa-02
+  position: absolute
+  top: 70%
+  right: 0%
+  width: 25%
+  z-index: 1
+
+@media (max-width:500px)
+  .tema1-decorativa-02
+    position: absolute
+    top: 74.5%
+    right: 0%
+    width: 50%
+    z-index: 1
 
 .tema4-decorativa-01    
   position: absolute

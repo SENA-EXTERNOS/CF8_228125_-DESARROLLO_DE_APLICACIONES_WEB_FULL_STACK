@@ -56,7 +56,7 @@
       .col-lg-7
         .crd.clr-paleBlue.p-4.mb-5
           p El control de acceso basado en roles (RBAC), es una función de seguridad para controlar el acceso de usuarios a tareas que habitualmente están restringidas a un superusuario que, mediante la aplicación de atributos de seguridad a procesos y usuarios, el RBAC puede dividir sus capacidades entre varios administradores. Tal gestión de derechos de procesos se implementan mediante privilegios, a través de RBAC como alternativa al modelo de superusuario. (Oracle, 2010.)
-        p El usuario #[b root], también conocido como superusuario, es omnipotente, como también los programas que se ejecutan como root, o los programas #[b setuid]. El usuario #[b root] puede leer y escribir en cualquier archivo, ejecutar todos los programas y enviar señales de terminación a cualquier proceso. Un programa usurpado puede realizar cualquier tarea en el sistema (Oracle, 2010), de hecho, cualquier persona que puede convertirse en superusuario puede modificar el cortafuegos de un sitio, modificar la pista de auditoría, leer registros confidenciales y apagar toda la red. 
+        p El usuario #[b #[i root]], también conocido como superusuario, es omnipotente, como también los programas que se ejecutan como root, o los programas #[b #[i setuid]]. El usuario #[b #[i root]] puede leer y escribir en cualquier archivo, ejecutar todos los programas y enviar señales de terminación a cualquier proceso. Un programa usurpado puede realizar cualquier tarea en el sistema (Oracle, 2010), de hecho, cualquier persona que puede convertirse en superusuario puede modificar el cortafuegos de un sitio, modificar la pista de auditoría, leer registros confidenciales y apagar toda la red. 
 
     p.mb-5 La flexibilidad en la configuración de los roles posibilita una variedad de políticas de seguridad, y aunque incluye pocos roles, es posible configurar fácilmente los tres roles recomendados, basados en perfiles de derechos con el mismo nombre (Oracle, 2010). Estos roles son:
 
@@ -91,7 +91,7 @@
             figure(data-aos="fade-right")
               img(src="@/assets/curso/temas/tema4/tema4-img-05.png")        
 
-    TabsC.color-primario
+    TabsC.color-acento-botones
       .py-3.py-md-4(titulo="Protección de la información")
         .row
           .col-md-6
@@ -112,23 +112,23 @@
             p Es la capacidad que tiene un sistema de información para realizar las operaciones procedimentales de manera adecuada, es decir que los procesos que han sido programados dentro del sistema se realizan de manera adecuada y arrojan los resultados esperados. Como ejemplo se puede observar el funcionamiento de un cajero automático, no solo está programado para la entrega de dinero a los usuarios, también para realizar las transacciones de forma adecuada. Si un usuario tiene $100.000 pesos en su cuenta y retira $40.000 y no existe ningún proceso de descuento por transacción, lo ideal es que dentro de la cuenta resten $60.000, porque el sistema realiza una operación matemática, la resta, y los valores resultantes deben ser precisos y acordes a lo solicitado por el usuario. En caso de arrojar un valor diferente, se podrá decir que el sistema no tiene integridad y debe ser revisado para que realice las operaciones de manera adecuada para los usuarios que utilicen este sistema de información.
       .py-3.py-md-4(titulo="Disponibilidad")
         .row
-          .col-md-6
+          .col-md-5
             figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema4/tema4-img-08.png', alt='Texto que describa la imagen')
 
-          .col-md-6.mb-4.mb-md-0
+          .col-md-7.mb-4.mb-md-0
             h4 Disponibilidad
-            p.mb-5 Esta es una característica de los sistemas de almacenamiento que establece los mecanismos y tiempos en los que el sistema de información deberá responder a los usuarios que requieran acceso a la información, esto implica la verificación de si esa persona tiene acceso o no a dicha información. El proceso de disponibilidad depende de una política de acceso a la información que determina los tiempos de negociación de entrega de la información y cómo el sistema estará operable para el proceso. Existen diferentes modelos de disponibilidad dos de ellos son: 
-            ul.mb-5.lista-ul
+            p.mb-4 Esta es una característica de los sistemas de almacenamiento que establece los mecanismos y tiempos en los que el sistema de información deberá responder a los usuarios que requieran acceso a la información, esto implica la verificación de si esa persona tiene acceso o no a dicha información. El proceso de disponibilidad depende de una política de acceso a la información que determina los tiempos de negociación de entrega de la información y cómo el sistema estará operable para el proceso. Existen diferentes modelos de disponibilidad dos de ellos son: 
+            ul.mb-4.lista-ul
               li
-                i.fa.fa-caret-right
+                i.fas.fa-circle
                 | #[b 24/7] : El sistema se encuentra disponible las 24 horas del día, los 7 días de la semana, a esto se le denomina también alta disponibilidad. 
               li 
-                i.fa.fa-caret-right
+                i.fas.fa-circle
                 | #[b 8/7] : El sistema está disponible 8 horas al día, los 7 días de la semana. 
 
 
-            p.mb-5 Este tipo de disponibilidad se utiliza cuando una empresa requiere que los empleados tengan restricción de acceso de acuerdo al horario, por ejemplo de 8 a 12 del mediodía o de 2 a 6 de la tarde, teniendo así una disponibilidad de 8 horas por día. 
+            p.mb-4 Este tipo de disponibilidad se utiliza cuando una empresa requiere que los empleados tengan restricción de acceso de acuerdo al horario, por ejemplo de 8 a 12 del mediodía o de 2 a 6 de la tarde, teniendo así una disponibilidad de 8 horas por día. 
             p Estas son formas de controlar el acceso a la información y políticas de acceso a ella.
 
       .py-3.py-md-4(titulo="Confidencialidad")

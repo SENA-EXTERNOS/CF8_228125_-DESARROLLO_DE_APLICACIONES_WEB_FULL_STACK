@@ -25,7 +25,7 @@
               figure
                 img(src='@/assets/curso/temas/tema3/tema3-img-02.svg', alt='Texto que describa la imagen')
 
-            div(x="15%" y="78%" tooltip="Ver más" numero="+")
+            div(x="15%" y="78%" tooltip="Ver más" numero="")
               .tarjeta.white-card.p-4
                 .row
                   .col-lg-12
@@ -33,7 +33,7 @@
                     p.mb-3 Los archivos xls son una extensión de archivos utilizados en las hojas de cálculo, como las empleadas en Microsoft Excel, tienen una estructura conformada por filas y columnas que permiten registrar y manipular información de forma organizada. Teniendo en cuenta el esquema de filas y columnas, este tipo de archivos permite realizar procesamiento y aplicación de fórmulas para calcular valores de datos, entre otras operaciones, son fáciles de manejar y tienen una alta compatibilidad y conexión con sistemas de información en general.
                   
 
-            div(x="41%" y="78%" tooltip="Ver más" numero="+")
+            div(x="41%" y="78%" tooltip="Ver más" numero="")
               .tarjeta.white-card.p-4
                 .row
                   .col-lg-7
@@ -41,7 +41,7 @@
                     p.mb-3  Los archivos con extensión TXT son archivos que se consideran planos debido a que no contienen ningún tipo de formato específico para el almacenamiento de la información. A pesar de esto, son utilizados para el almacenamiento de información porque ocupan muy poco espacio de almacenamiento en disco, además, otra de sus ventajas, es la compatibilidad que tienen con cualquier sistema operativo, es decir, con los editores de texto que tienen los principales sistemas operativos, por lo que pueden ser editados prácticamente en cualquier sistema.
                     
 
-            div(x="66%" y="78%" tooltip="Ver más" numero="+")
+            div(x="66%" y="78%" tooltip="Ver más" numero="")
               .tarjeta.white-card.p-4
                 .row
                   .col-lg-12
@@ -49,7 +49,7 @@
                     p.mb-3  Significa Extensible Markup Language. Es un lenguaje de marcado similar a HTML, pero es una especificación de W3C como lenguaje de marcado de propósito general. A diferencia de otros lenguajes de marcado, XML no está predefinido, por lo que al trabajarlo, se debe definir sus propias etiquetas. Su principal objetivo es compartir datos a través de diferentes sistemas como Internet.
 
 
-            div(x="89%" y="78%" tooltip="Ver más" numero="+")
+            div(x="89%" y="78%" tooltip="Ver más" numero="")
               .tarjeta.white-card.p-4
                 .row
                   .col-lg-12

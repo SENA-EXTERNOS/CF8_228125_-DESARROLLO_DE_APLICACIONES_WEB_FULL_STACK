@@ -9,7 +9,7 @@
 
     .row.justify-content-around.aling-items-center.mb-5
       .col-lg-12.mb-lg-0
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(data-aos="flip-up")
+        .bloque-texto-g.color--secundario.p-3.p-sm-4.p-md-5(data-aos="flip-up")
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/tema2-img-01.svg')})`}"
           )
@@ -25,14 +25,14 @@
             figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema2/tema2-img-02.svg', alt='Texto que describa la imagen')
 
-          div(x="24%" y="101%" tooltip="Ver más" numero="+")
+          div(x="24%" y="92%" tooltip="Ver más" numero="")
             .tarjeta.white-card.p-4
               .row
                 .col-lg-12
                   .h5.mb-3 Insert
                   p Esta instrucción permite realizar el registro de nueva información dentro de la base de datos, es necesario aplicar las reglas de llaves, por ejemplo, si existe un registro que se repite,  automáticamente se procederá a rechazar el ingreso del nuevo dato, indicando que ese dato ya se encuentra registrado en la base de datos para evitar problemas de ambigüedad de datos o duplicidad.#[b insert into tbl_clientes(PKId, Nombre, Contacto, Fecha_Nac, Direccion, Correo, FKCodigo_tbl_Sexo)  values (‘123’,’Dulfran’,’3126954069’,’1983-04-20’,’Barranquilla’,’dulfranelinge@gmail.com’,1)]
 
-          div(x="42%" y="101%" tooltip="Ver más" numero="+")
+          div(x="42%" y="92%" tooltip="Ver más" numero="")
             .tarjeta.white-card.p-4
               .row
                 .col-lg-12
@@ -41,7 +41,7 @@
                   p.mb-3 #[b update tbl_clientes set Nombre = 'Pepito' where PKId = '123']
                   p El código realiza la actualización del nombre de la persona registrada, teniendo en cuenta, como restricción, la identificación de la persona, por lo cual solo se actualizará la información de este cliente en particular, no la de los demás clientes.
 
-          div(x="59%" y="101%" tooltip="Ver más" numero="+")
+          div(x="59%" y="92%" tooltip="Ver más" numero="")
             .tarjeta.white-card.p-4
               .row
                 .col-lg-12
@@ -50,7 +50,7 @@
                   p.mb-3 #[b delete from tbl_clientes where PKId = ‘123’]
                   p La instrucción procede a eliminar el registro del cliente, pero, como condición a cumplir, se elimina solo el cliente con la identificación registrada, sin afectar a los demás registros de la base de datos.
 
-          div(x="76%" y="101%" tooltip="Ver más" numero="+")
+          div(x="76%" y="92%" tooltip="Ver más" numero="")
             .tarjeta.white-card.p-4
               .row
                 .col-lg-12
@@ -84,14 +84,16 @@
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-12
             figure(data-aos="fade-right")
-              img(src="@/assets/curso/temas/tema2/tema2-img-04.svg")
+              img(src="@/assets/curso/temas/tema2/tema2-img-04.svg").tema2.Mindex
+    
+    img(src="@/assets/curso/temas/tema2/tema2-img-decorativa-01.svg").tema2-decorativa-01
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-5
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-12
             figure(data-aos="fade-right")
-              img(src="@/assets/curso/temas/tema2/tema2-img-05.svg")    
+              img(src="@/assets/curso/temas/tema2/tema2-img-05.svg").tema2.Mindex    
       .col-lg-7
         ol.lista-ol--cuadro.lista-ol--separador
           li 
@@ -127,29 +129,31 @@
         .cajon.color--secundario.p-4
           p Como se puede observar en este diagrama, existe una relación entre dos entidades, una llamada clientes y la otra llamada sexo. En este caso particular, se evidencia que un sexo (hombre – mujer) está asociado a varios clientes, es decir, varios clientes pueden estar asociados al sexo ‘hombre’ y otros al sexo ‘mujer’, de esta forma,  se interpreta la asociación de la información en el sistema informático desde la comprensión literal del proceso real, al proceso del sistema de información a desarrollar.
 
-    .titulo-segundo.color-acento-botones.mt-5
+    .titulo-segundo.color-acento-botones.tema2.Mindex.mt-5
       h2 Modelo lógico
 
+    img(src="@/assets/curso/temas/tema2/tema2-img-decorativa-02.svg").tema2-decorativa-02
+
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-5
+      .col-lg-4
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-12
             figure(data-aos="fade-right")
-              img(src="@/assets/curso/temas/tema2/tema2-img-07.svg")    
-      .col-lg-7
+              img(src="@/assets/curso/temas/tema2/tema2-img-07.svg").tema2.Mindex    
+      .col-lg-8
         p.mb-4 El modelo lógico es una etapa del desarrollo de una base de datos, donde se colocan todas las entidades con sus respectivas relaciones,  permite visualizar la manera como los datos se ven reflejados con sus tipos de datos asociados, en otras palabras, ayuda a visualizar el esquema de datos de manera más amplia, siendo el punto inicial para comprender todos los procesos de conexión de los datos dentro del sistema a desarrollar.
         p.mb-4 Es importante tener en cuenta que este modelo es el punto de partida para la construcción de las bases de datos en el sistema de implementación a utilizar, proporcionando así, la referencia a cada una de las entidades y su respectivo tipo de dato, correspondiente a su longitud, si aplica. Este campo es una llave primaria, foránea, que delimita las restricciones que se aplicarían en tal caso.
         p #[b La siguiente imagen ilustra el diagrama lógico de la secuencia del ejemplo señalado.]
 
-      img(src="@/assets/curso/temas/tema2/tema2-img-decorativa-01.svg", alt="Texto que describa la imagen").tema2-decorativa-01
+      img(src="@/assets/curso/temas/tema2/tema2-img-decorativa-03.svg", alt="Texto que describa la imagen").tema2-decorativa-03
 
-      .titulo-sexto.color-acento-botones.mt-5
+      .titulo-sexto.color-acento-botones.tema2.Mindex.mt-5
         h5 Figura 3.
         span Ejemplo Modelo lógico 
             
-      .col-lg-10.mt-5.mb-5
+      .col-lg-10.tema2.Mindex.mt-5.mb-5
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema2/tema2-img-08.svg', alt='Texto que describa la imagen')         
+          img(src='@/assets/curso/temas/tema2/tema2-img-08.svg', alt='Texto que describa la imagen')        
 
       .cajon.color-acento-botones2.p-4
         p El modelo lógico anterior propone identificar cada uno de los tipos de datos que tienen las entidades en la base de datos, facilitando que el programador, o la persona encargada de realizar la codificación de la base de datos en un sistema de gestión de base de datos, cuente con la información precisa para realizar el proceso, porque al conocer los diferentes tipos de datos que se conectan con las llaves y la restricción que cada una de ellas tiene, el desarrollador puede construir el sistema de almacenamiento con los tipos de datos y conexiones que este requiera.
@@ -160,40 +164,44 @@
       h2 Modelo físico
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-3
-        figure(data-aos="fade-right")
-          img(src="@/assets/curso/temas/tema2/tema2-img-09.svg")
-      .col-lg-9
-        .crd.clr-paleBlue.p-4
-          p.mb-0 El modelo físico constituye la etapa de implementación de la base de datos en un sistema de almacenamiento, esto es, un servidor de bases de datos en el que se codifica de acuerdo al modelo lógico y se crea de manera funcional todo el sistema de almacenamiento, sirviendo soporte a la aplicación informática, la cual requiere del servidor para poder procesar, almacenar y gestionar la información que la aplicación requiera.  
+      .col-lg-11
+        .row.justify-content-center.align-items-center.mb-4
+          .col-lg-4
+            figure(data-aos="fade-right")
+              img(src="@/assets/curso/temas/tema2/tema2-img-09.svg")
+          .col-lg-7
+            .row
+              .col-lg-11
+                .crd.clr-paleBlue.p-4
+                  p.mb-0 El modelo físico constituye la etapa de implementación de la base de datos en un sistema de almacenamiento, esto es, un servidor de bases de datos en el que se codifica de acuerdo al modelo lógico y se crea de manera funcional todo el sistema de almacenamiento, sirviendo soporte a la aplicación informática, la cual requiere del servidor para poder procesar, almacenar y gestionar la información que la aplicación requiera.  
 
-        p En este paso es primordial seleccionar el tipo de motor de base de datos que se utilizará para la implementación de la base de datos. En la actualidad, se pueden encontrar varios de ellos como Oracle, SQL Server, MYSQL Server, tres de los motores de bases de datos más utilizados a nivel mundial en lo que se refiere a servidores de bases de datos relacionales.
+                p.mt-3 En este paso es primordial seleccionar el tipo de motor de base de datos que se utilizará para la implementación de la base de datos. En la actualidad, se pueden encontrar varios de ellos como Oracle, SQL Server, MYSQL Server, tres de los motores de bases de datos más utilizados a nivel mundial en lo que se refiere a servidores de bases de datos relacionales.
 
-        p Seguidamente, podrá observar un ejemplo de la creación física de una base de datos y cómo quedaría implementada en un servidor de bases de datos real.
+                p.mt-4 Seguidamente, podrá observar un ejemplo de la creación física de una base de datos y cómo quedaría implementada en un servidor de bases de datos real.
 
-    .titulo-sexto.color-acento-botones.mt-5
-      h5 Figura 4.
-      span Código implementación modelo físico
+        .titulo-sexto.color-acento-botones.mt-5
+          h5 Figura 4.
+          span Código implementación modelo físico
 
-    .row.justify-content-center.mb-4
-      .col-lg-6
-        figure(data-aos="zoom-in")
-          img(src="@/assets/curso/temas/tema2/tema2-img-10.svg")
-      .col-lg-6
-        .cajon.color-acento-botones3.p-4
-            p La imagen anterior presenta la codificación utilizada para crear la base de datos en el servidor, facultando la aplicación a almacenar la información de manera correcta dentro del sistema de almacenamiento. Una vez realizada la codificación de la base de datos y su creación, se deben generar las diferentes conexiones de la información, tal como lo presenta la siguiente imagen.
+        .row.justify-content-center.mb-4
+          .col-lg-6
+            figure(data-aos="zoom-in")
+              img(src="@/assets/curso/temas/tema2/tema2-img-10.svg")
+          .col-lg-6
+            .cajon.color-acento-botones3.p-4
+                p La imagen anterior presenta la codificación utilizada para crear la base de datos en el servidor, facultando la aplicación a almacenar la información de manera correcta dentro del sistema de almacenamiento. Una vez realizada la codificación de la base de datos y su creación, se deben generar las diferentes conexiones de la información, tal como lo presenta la siguiente imagen.
 
-      .titulo-sexto.color-acento-botones.mt-5
-        h5 Figura 5.
-        span  Diagrama entidad - relación en servidor de base de dato
+          .titulo-sexto.color-acento-botones.mt-5
+            h5 Figura 5.
+            span  Diagrama entidad - relación en servidor de base de dato
 
-      figure
-        img(src="@/assets/curso/temas/tema2/tema2-img-11.svg")
+          figure
+            img(src="@/assets/curso/temas/tema2/tema2-img-11.svg")
 
-    .row.justify-content-up.align-items-center.mt-5
-      .col-lg-12
-        .cajon.color-acento-contenido.p-4
-          p Siguiendo la imagen, la base de datos está implementada en un servidor de bases de datos real, para este caso se ha utilizado el motor de bases de datos SQL Server para la codificación, pero aplicaría igual para cualquiera de los motores de bases de datos mencionados anteriormente.
+        .row.justify-content-up.align-items-center.mt-5
+          .col-lg-12
+            .cajon.color-acento-contenido.p-4
+              p Siguiendo la imagen, la base de datos está implementada en un servidor de bases de datos real, para este caso se ha utilizado el motor de bases de datos SQL Server para la codificación, pero aplicaría igual para cualquiera de los motores de bases de datos mencionados anteriormente.
 
 </template>
 
