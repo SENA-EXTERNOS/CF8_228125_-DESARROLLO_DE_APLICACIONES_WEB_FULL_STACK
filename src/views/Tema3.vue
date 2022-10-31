@@ -46,7 +46,7 @@
                 .row
                   .col-lg-12
                     .h4 XML
-                    p.mb-3  Significa Extensible Markup Language. Es un lenguaje de marcado similar a HTML, pero es una especificación de W3C como lenguaje de marcado de propósito general. A diferencia de otros lenguajes de marcado, XML no está predefinido, por lo que al trabajarlo, se debe definir sus propias etiquetas. Su principal objetivo es compartir datos a través de diferentes sistemas como Internet.
+                    p.mb-3  Significa #[i Extensible Markup Language]. Es un lenguaje de marcado similar a HTML, pero es una especificación de W3C como lenguaje de marcado de propósito general. A diferencia de otros lenguajes de marcado, XML no está predefinido, por lo que al trabajarlo, se debe definir sus propias etiquetas. Su principal objetivo es compartir datos a través de diferentes sistemas como Internet.
 
 
             div(x="89%" y="78%" tooltip="Ver más" numero="")
@@ -54,7 +54,7 @@
                 .row
                   .col-lg-12
                     .h4 JSON
-                    p.mb-3  JavaScript Object Notation (JSON) es un formato basado en texto estándar para representar datos estructurados en la sintaxis de objetos de JavaScript. Es comúnmente utilizado para transmitir datos en aplicaciones web, por ejemplo, para enviar algunos datos desde el servidor al cliente, así estos datos pueden ser mostrados en páginas web o viceversa.     
+                    p.mb-3  #[i JavaScript Object Notation] (JSON) es un formato basado en texto estándar para representar datos estructurados en la sintaxis de objetos de JavaScript. Es comúnmente utilizado para transmitir datos en aplicaciones web, por ejemplo, para enviar algunos datos desde el servidor al cliente, así estos datos pueden ser mostrados en páginas web o viceversa.     
         
         p Ahora, se presentan las principales características de cada uno de estos tipos de fuentes.
 
@@ -95,7 +95,7 @@
                   | Formato de texto completamente independiente del lenguaje.
                 li
                   i.fa.fa-caret-right
-                  | Familiar para los programadores de lenguajes de la familia C, incluidos C, C++, C#, Java™, JavaScript, Perl, Python y mucho otros.     
+                  | Familiar para los programadores de lenguajes de la familia C, incluidos C, C++, C#, Java™, JavaScript, Perl, Python y muchos otros.     
             
           .tarjeta-avatar
             img(src='@/assets/curso/temas/tema3/tema3-img-05.svg' alt='AvatarTop')
@@ -165,11 +165,11 @@
         .row.justify-content-center.align-items-center
           .col-lg-5
             .row.justify-content-center.align-items-center.mb-4
-              .col-lg-12
+              .col-lg-11
                 figure(data-aos="zoom-in")
                   img(src="@/assets/curso/temas/tema3/tema3-img-09.svg")
           .col-lg-7
-            p.mb-4 Las fuentes de datos son una parte importante del proceso de manejo de la información, proveen el insumo necesario para realizar los procesos de adquisición de la información. Como es conocido, las empresas producen muchos tipos de información en diferentes presentaciones, a eso se le puede llamar fuente de información. Ahora bien, es necesario tener en cuenta que la información tiene diferentes maneras de ser procesada, por ejemplo, si la fuente de información es un archivo .txt, un archivo plano, la información carecería de algún tipo de tabulación, es decir, se deben utilizar mecanismos para garantizar su lectura de manera correcta y evitar tanto la pérdida de información como una lectura incorrecta de ella. En el caso de adquirir información de un archivo .xls, que está distribuido a través de filas y columnas, se debe establecer un método de lectura que garantice que se sustraiga la información de manera correcta, previniendo pérdidas o problemas en el proceso de recepción y, de igual forma, se aplicaría a los otros tipos de fuentes de información recopiladas en los diferentes tipos de archivos expuestos anteriormente.
+            p.mb-4 Es importante tener presente que dentro de estas características se debe considerar que el volumen de información es esencial para su clasificación. En el caso de las fuentes primarias y secundarias, el volumen de información es de gran escala y genera una cantidad de datos e información que requiere un proceso de almacenamiento y procesamiento con una capacidad de cómputo significativa, mientras que las fuentes terciarias solo tienen una pequeña porción de la información,  presentando pequeños resultados que,   en caso que el usuario requiera especificar o ver la información completa, procederá a efectuar un esfuerzo por realizar la consulta de toda la información que coincida con el criterio solicitado por el mismo usuario. Esta manera de ejecutar este proceso resulta más eficiente, en tanto no se utiliza la capacidad total de procesamiento, generando mayor eficiencia al sistema.  Los buscadores de información son un ejemplo de esto, traen al usuario una porción de la información para que sea él quien elija cuál es el dato específico por consultar y,  una vez el usuario selecciona la opción, procede a desplegar los datos requeridos. 
       
 
 

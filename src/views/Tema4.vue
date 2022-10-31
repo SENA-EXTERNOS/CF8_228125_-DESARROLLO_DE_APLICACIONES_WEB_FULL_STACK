@@ -29,13 +29,13 @@
               img(src="@/assets/curso/temas/tema4/tema4-img-02.png")
 
 
-    TabsA.color-acento-botones
+    TabsA.color-acento--botones
       .tarjeta.color-acento-botones--borde.p-4(titulo="Artículo 269A")
-        h4 Uso de software malicioso: 
-        p Quien sin estar facultado para ello, produzca, trafique, adquiera, distribuya, venda, envíe, introduzca o extraiga del territorio nacional software malicioso u otros programas de computación de efectos dañinos, incurrirá en pena de prisión de cuarenta y ocho (48) a noventa y seis (96) meses y en multa de cien (100) a mil (1.000) salarios mínimos legales mensuales vigentes.
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Artículo 269E")
-        h4 Acceso abusivo a un sistema informático
+        h4 Acceso abusivo a un sistema informático:
         p Quien, sin autorización o fuera de lo acordado, acceda, en todo o en parte, a un sistema informático protegido o no con una medida de seguridad, o se mantenga dentro del mismo en contra de la voluntad de quien tenga el legítimo derecho a excluirlo, incurrirá en pena de prisión de cuarenta y ocho (48) a noventa y seis (96) meses y en multa de cien (100) a mil (1.000) salarios mínimos legales mensuales vigentes.
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Artículo 269E")
+        h4 Uso de #[i software] malicioso: 
+        p Quien sin estar facultado para ello, produzca, trafique, adquiera, distribuya, venda, envíe, introduzca o extraiga del territorio nacional #[i software] malicioso u otros programas de computación de efectos dañinos, incurrirá en pena de prisión de cuarenta y ocho (48) a noventa y seis (96) meses y en multa de cien (100) a mil (1.000) salarios mínimos legales mensuales vigentes.
     
     .row.justify-content-center.align-items-center.mb-3.mt-4
       .col-lg-10.estiloCol
@@ -64,11 +64,11 @@
       .col-lg-7
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Administrador principal")
-            p Un rol poderoso equivalente al usuario root o superusuario.
-          .row(titulo="root")
-            p Al igual que el anterior es un rol potente con el impedimento de iniciar sesión. Un usuario debe iniciar primero sesión y luego asumir el rol root asignado.
+            p Un rol poderoso equivalente al usuario #[i root] o superusuario.
+          .row(titulo="<i>root</i>")
+            p Al igual que el anterior es un rol potente con el impedimento de iniciar sesión. Un usuario debe iniciar primero sesión y luego asumir el rol #[i root] asignado.
           .row(titulo="Administrador del sistema")
-            p Un rol menos poderoso para la administración y no está relacionado con la seguridad. Este rol puede gestionar sistemas de archivos, correo e instalación de software, sin embargo, no puede definir contraseñas.
+            p Un rol menos poderoso para la administración y no está relacionado con la seguridad. Este rol puede gestionar sistemas de archivos, correo e instalación de #[i software], sin embargo, no puede definir contraseñas.
           .row(titulo="Operador")
             p Rol de administrador junior para operaciones como copias de seguridad y gestión de impresoras.                                    
 
@@ -99,7 +99,6 @@
               img(src='@/assets/curso/temas/tema4/tema4-img-06.png', alt='Texto que describa la imagen')
 
           .col-md-6.mb-4.mb-md-0
-            h4 Protección de la información
             p Esta característica es fundamental al momento de pensar en la implementación de un sistema de almacenamiento, porque la información, al ser uno de los activos más importante de las empresas, sirve en la toma de decisiones o, en la mayoría de los casos, dependen de ella para realizar labores de adquisición de productos o servicios.
       .py-3.py-md-4(titulo="Integridad")
         .row
@@ -108,7 +107,6 @@
               img(src='@/assets/curso/temas/tema4/tema4-img-07.png', alt='Texto que describa la imagen')
 
           .col-md-6.mb-4.mb-md-0
-            h4 Integridad
             p Es la capacidad que tiene un sistema de información para realizar las operaciones procedimentales de manera adecuada, es decir que los procesos que han sido programados dentro del sistema se realizan de manera adecuada y arrojan los resultados esperados. Como ejemplo se puede observar el funcionamiento de un cajero automático, no solo está programado para la entrega de dinero a los usuarios, también para realizar las transacciones de forma adecuada. Si un usuario tiene $100.000 pesos en su cuenta y retira $40.000 y no existe ningún proceso de descuento por transacción, lo ideal es que dentro de la cuenta resten $60.000, porque el sistema realiza una operación matemática, la resta, y los valores resultantes deben ser precisos y acordes a lo solicitado por el usuario. En caso de arrojar un valor diferente, se podrá decir que el sistema no tiene integridad y debe ser revisado para que realice las operaciones de manera adecuada para los usuarios que utilicen este sistema de información.
       .py-3.py-md-4(titulo="Disponibilidad")
         .row
@@ -117,7 +115,6 @@
               img(src='@/assets/curso/temas/tema4/tema4-img-08.png', alt='Texto que describa la imagen')
 
           .col-md-7.mb-4.mb-md-0
-            h4 Disponibilidad
             p.mb-4 Esta es una característica de los sistemas de almacenamiento que establece los mecanismos y tiempos en los que el sistema de información deberá responder a los usuarios que requieran acceso a la información, esto implica la verificación de si esa persona tiene acceso o no a dicha información. El proceso de disponibilidad depende de una política de acceso a la información que determina los tiempos de negociación de entrega de la información y cómo el sistema estará operable para el proceso. Existen diferentes modelos de disponibilidad dos de ellos son: 
             ul.mb-4.lista-ul
               li
@@ -138,7 +135,6 @@
               img(src='@/assets/curso/temas/tema4/tema4-img-09.png', alt='Texto que describa la imagen')
 
           .col-md-6.mb-4.mb-md-0
-            h4 Confidencialidad
             p Esta característica se relaciona con las credenciales de acceso, la información requiere tener un dueño o responsable de su manipulación y uso. Ejemplo, las redes sociales o correo electrónico, ambos tienen mecanismos de acceso como usuarios y contraseñas o, en algunos casos, el acceso utilizan códigos enviados a dispositivos móviles con el fin de garantizar que quien solicita el acceso a la información sea la persona responsable o dueña de ella.
    
     .tarjeta.color-secundario.p-3.mb-5.mt-5

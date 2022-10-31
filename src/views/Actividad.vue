@@ -10,12 +10,12 @@
             img(src="@/assets/curso/temas/actividad/actividad_01.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-botones.mt-5
-          h2 Selección múltiple
+          h2 Opción múltiple
         p.mb-5 Evaluar la apropiación de las temáticas estudiadas en el componente formativo.
         .tarjeta.actividad.p-3.mt-5
           .row.justify-content-around.align-items-center           
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Selección múltiple
+              p.fw-bold.mb-0 Opción múltiple
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/index.html')" target="_blank")
                 span Realizar

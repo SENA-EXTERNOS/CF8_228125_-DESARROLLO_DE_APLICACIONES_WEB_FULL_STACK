@@ -10,7 +10,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7
         .crd.clr-paleBlue.p-4
-          p.mb-0 Los centros están asociados a la modernización de la obtención de la información, es decir, al almacenamiento de las actividades diarias dependiendo el área de organización de cada empresa, por ejemplo, contabilidad, información de personal de recursos humanos RRHH, entre otros. Un centro de datos son aquellos componentes físicos donde se instalan las redes, computadores e incluso almacenamiento entre otros dispositivos y equipos T.I que ayudan al funcionamiento de las organizaciones.  
+          p.mb-0 Las bases de datos NoSQL nacen como una alternativa de almacenamiento de información con una estructura distinta a la convencional, comúnmente conocida como ‘base de datos relacional’, y poseen un importante segmento del mercado, abarcando gran parte de los procesos de negocio que manejan las empresas hoy día.
 
         p Los procesos, por lo general, tienden a evolucionar de acuerdo a como se desarrollan los procesos de negocio dentro de las organizaciones, esto quiere decir que las bases de datos NoSQL, de alguna manera, se relacionan en gran medida con la evolución de los procesos de almacenamiento de información, lo cual implica, a su vez, que en muchos de los procesos que hoy se manejan, las bases de datos NoSQL se implementan no solo por compañías o empresas específicas, también por diferentes actores del mundo de la computación, incluyendo empresas, particulares o comunidad en general, todos esperando generar soluciones de almacenamiento a sus proyectos.                  
       .col-lg-5

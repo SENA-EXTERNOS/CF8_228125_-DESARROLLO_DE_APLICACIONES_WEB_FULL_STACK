@@ -29,14 +29,14 @@
             .tarjeta.white-card.p-4
               .row
                 .col-lg-12
-                  .h5.mb-3 Insert
+                  h5.mb-3 Insert
                   p Esta instrucción permite realizar el registro de nueva información dentro de la base de datos, es necesario aplicar las reglas de llaves, por ejemplo, si existe un registro que se repite,  automáticamente se procederá a rechazar el ingreso del nuevo dato, indicando que ese dato ya se encuentra registrado en la base de datos para evitar problemas de ambigüedad de datos o duplicidad.#[b insert into tbl_clientes(PKId, Nombre, Contacto, Fecha_Nac, Direccion, Correo, FKCodigo_tbl_Sexo)  values (‘123’,’Dulfran’,’3126954069’,’1983-04-20’,’Barranquilla’,’dulfranelinge@gmail.com’,1)]
 
           div(x="42%" y="92%" tooltip="Ver más" numero="")
             .tarjeta.white-card.p-4
               .row
                 .col-lg-12
-                  .h5.mb-3 Update
+                  h5.mb-3 Update
                   p.mb-3 Esta instrucción permite realizar la actualización de un dato previamente registrado dentro de la base de datos, es importante destacar que para realizar la actualización, se debe cumplir con la regla de solo actualizar los campos que coincidan con el criterio de actualización, es decir, solo se deben actualizar los datos e información que coincidan con los datos relacionados.
                   p.mb-3 #[b update tbl_clientes set Nombre = 'Pepito' where PKId = '123']
                   p El código realiza la actualización del nombre de la persona registrada, teniendo en cuenta, como restricción, la identificación de la persona, por lo cual solo se actualizará la información de este cliente en particular, no la de los demás clientes.
@@ -45,7 +45,7 @@
             .tarjeta.white-card.p-4
               .row
                 .col-lg-12
-                  .h5.mb-3 Delete
+                  h5.mb-3 Delete
                   p.mb-3 Esta instrucción permite eliminar un registro que se encuentre registrado previamente dentro de la base de datos, se utiliza cuando el registro no se requiera dentro de los procesos de negocio y su información debe desaparecer del sistema de almacenamiento.
                   p.mb-3 #[b delete from tbl_clientes where PKId = ‘123’]
                   p La instrucción procede a eliminar el registro del cliente, pero, como condición a cumplir, se elimina solo el cliente con la identificación registrada, sin afectar a los demás registros de la base de datos.
@@ -54,7 +54,7 @@
             .tarjeta.white-card.p-4
               .row
                 .col-lg-12
-                  .h5.mb-3 Select
+                  h5.mb-3 Select
                   p.mb-3 Esta instrucción permite efectuar búsquedas de información de acuerdo con lo requerido por el usuario, estas consultas pueden realizarse de forma general o específica, es decir, se pueden traer un conjunto de datos asociados al registro o el de un usuario en particular.
                   p.mb-3 #[b select * from tbl_clientes / select * from tbl_clientes where PKId = ‘123’]
                   p Se presentan, así, dos posibilidades. La primera permite traer los datos de todos los clientes registrados, la segunda, ejecuta un filtro y solo traerá la información del cliente que coincida con la condición dada, que el documento de identificación sea 123.
@@ -175,7 +175,7 @@
                 .crd.clr-paleBlue.p-4
                   p.mb-0 El modelo físico constituye la etapa de implementación de la base de datos en un sistema de almacenamiento, esto es, un servidor de bases de datos en el que se codifica de acuerdo al modelo lógico y se crea de manera funcional todo el sistema de almacenamiento, sirviendo soporte a la aplicación informática, la cual requiere del servidor para poder procesar, almacenar y gestionar la información que la aplicación requiera.  
 
-                p.mt-3 En este paso es primordial seleccionar el tipo de motor de base de datos que se utilizará para la implementación de la base de datos. En la actualidad, se pueden encontrar varios de ellos como Oracle, SQL Server, MYSQL Server, tres de los motores de bases de datos más utilizados a nivel mundial en lo que se refiere a servidores de bases de datos relacionales.
+                p.mt-3 En este paso es primordial seleccionar el tipo de motor de base de datos que se utilizará para la implementación de la base de datos. En la actualidad, se pueden encontrar varios de ellos como #[i Oracle, SQL Server, MYSQL Server], tres de los motores de bases de datos más utilizados a nivel mundial en lo que se refiere a servidores de bases de datos relacionales.
 
                 p.mt-4 Seguidamente, podrá observar un ejemplo de la creación física de una base de datos y cómo quedaría implementada en un servidor de bases de datos real.
 

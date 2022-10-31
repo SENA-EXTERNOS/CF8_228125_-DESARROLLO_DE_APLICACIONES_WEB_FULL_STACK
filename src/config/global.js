@@ -143,7 +143,7 @@ export default {
     {
       termino: 'Disponibilidad',
       significado:
-        'Disponibilidad:	Es una característica de los sistemas de almacenamiento al establecer los mecanismos y tiempos en los cuales el sistema de información responderá a los usuarios que requieren acceso a la información.',
+        'Es una característica de los sistemas de almacenamiento al establecer los mecanismos y tiempos en los cuales el sistema de información responderá a los usuarios que requieren acceso a la información.',
     },
     {
       termino: 'Fuentes de datos',
@@ -178,7 +178,7 @@ export default {
     {
       termino: 'Modelo lógico',
       significado:
-        'El modelo físico constituye la etapa de implementación de la base de datos en un sistema de almacenamiento, en un servidor de bases de datos, en el que se codifica de acuerdo al modelo lógico, creando de manera funcional todo el sistema de almacenamiento que sirve de soporte a la aplicación informática.',
+        'El modelo lógico es una etapa del desarrollo de una base de datos, aquí se disponen todas las entidades, junto a sus respectivas relaciones, y permite visualizar la manera en que los datos se ven reflejados con sus tipos de datos asociados.',
     },
     {
       termino: 'NoSQL',
