@@ -11,7 +11,8 @@
 
 
     p.mb-4 Apreciado aprendiz, bienvenido a este componente formativo, donde encontrará diferentes temáticas orientadas al conocimiento de los sistemas de almacenamiento, desarrollando todas sus habilidades y capacidades en bases de datos. 
-    p En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
+
+    P En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo:
 
     figure.mb-5.mt-5
       .video

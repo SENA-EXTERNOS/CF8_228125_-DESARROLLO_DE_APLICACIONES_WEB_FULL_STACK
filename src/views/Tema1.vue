@@ -43,16 +43,14 @@
         
     .row.mt-5
       .col-lg-5
-      p Para ampliar la información, se le invita a ver el siguiente video.
+      p Para ampliar la información, se le invita a ver el siguiente video:
 
       figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
-    separador
-
-    .titulo-segundo.color-acento-botones.mt-5
-          h2 Modelo de datos
+    .row.mt-5
+      h3 Modelo de datos
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-5
@@ -60,13 +58,13 @@
           img(src="@/assets/curso/temas/tema1/tema1-img-04.svg")
       .col-lg-7
         .crd.clr-paleBlue.p-4
-          p.mb-0 El modelo de datos está determinado por la forma en la cual se organizan los datos y los campos de la base misma. Es importante tener en cuenta que las bases de datos NoSQL utilizan un nivel de archivo para organizar la información que contienen, es decir, se utilizan como si fuesen archivos planos que contienen una estructura sencilla pero organizada, en la que se ubica toda la información que debe contener y generar al momento de realizar el registro de los datos.  
+          p.mb-0 El modelo de datos, está determinado por la forma en la cual se organizan los datos y los campos de la base misma. Es importante tener en cuenta que las bases de datos NoSQL utilizan un nivel de archivo para organizar la información que contienen, es decir, se utilizan como si fuesen archivos planos que contienen una estructura sencilla pero organizada, en la que se ubica toda la información que debe contener y generar al momento de realizar el registro de los datos. 
 
-        p Al referirse a los tan populares archivos JSON o XML, los cuales contienen una estructura muy particular para la organización de la información implementada en las bases NoSQL, se evidencia la ventaja de almacenar información organizada y con poco espacio de almacenamiento. A continuación, se explica el almacenamiento de este tipo de modelo de datos.   
+        p Al referirse a los tan populares archivos JSON o XML, los cuales contienen una estructura muy particular para la organización de la información implementada en las bases NoSQL, se evidencia la ventaja de almacenar información organizada y con poco espacio de almacenamiento. A continuación, se explica el almacenamiento de este tipo de modelo de datos:
 
       .titulo-sexto.color-acento-botones.mt-5
         h5 Figura 1.
-        span Modelo de archivo JSONa
+        p <em>Modelo de archivo JSONa</em>
 
       .col-lg-12.mt-3
             figure
@@ -91,10 +89,8 @@
 
         p.mt-4 Para conocer el proceso de codificación de una base de datos en MongoDB, se invita a ver el video Mongodb para Visual Studio Code #[b Extensión], encontrado en el material complementario.
     
-    separador
-
-    .titulo-segundo.color-acento-botones.mt-1
-          h2 Gestores
+    .row.mt-5
+      h3 Gestores
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12

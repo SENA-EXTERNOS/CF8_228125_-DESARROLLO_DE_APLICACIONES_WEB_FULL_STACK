@@ -16,7 +16,7 @@
           .bloque-texto-g__texto.p-4
            p.mb-0 Las bases de datos relacionales son un modelo de datos en el que los datos y la información, se encuentran relacionados por medio de llaves, estas permiten que la información pueda ser consultada mediante una serie de secuencia de comandos llamadas instrucciones SQL. Hay 4 comandos básicos que permiten controlar y manipular los procesos de la base de datos.
 
-    p La siguiente imagen presenta los comandos DML para la gestión de la información de la base de datos. 
+    p La siguiente imagen presenta los comandos DML para la gestión de la información de la base de datos:
 
     .row.justify-content-center
       .col-lg-11
@@ -30,8 +30,8 @@
               .row
                 .col-lg-12
                   h5.mb-3 Insert
-                  p.margin-derecha Esta instrucción permite realizar el registro de nueva información dentro de la base de datos, es necesario aplicar las reglas de llaves, por ejemplo, si existe un registro que se repite,  automáticamente se procederá a rechazar el ingreso del nuevo dato, indicando que ese dato ya se encuentra registrado en la base de datos para evitar problemas de ambigüedad de datos o duplicidad.#[b insert into tbl_clientes(PKId, Nombre, Contacto, Fecha_Nac, Direccion, Correo, FKCodigo_tbl_Sexo)  values (‘123’,’Dulfran’,’3126954069’,’1983-04-20’,’Barranquilla’,’dulfranelinge@gmail.com’,1)]
-
+                  p.margin-derecha Esta instrucción permite realizar el registro de nueva información dentro de la base de datos; es necesario aplicar las reglas de llaves como, por ejemplo, si existe un registro que se repite, automáticamente se procederá a rechazar el ingreso del nuevo dato, indicando que ese dato ya se encuentra registrado en la base de datos, para evitar problemas de ambigüedad de datos o duplicidad. 
+                  p <b>insert into tbl_clientes(PKId, Nombre, Contacto, Fecha_Nac, Direccion, Correo, FKCodigo_tbl_Sexo) values (‘123’,’Dulfran’,’3126954069’,’1983-04-20’,’Barranquilla’,’dulfranelinge@gmail.com’,1)</b>
           div(x="42%" y="92%" tooltip="Ver más" numero="")
             .tarjeta.white-card.p-4
               .row
@@ -60,12 +60,10 @@
                   p Se presentan, así, dos posibilidades. La primera permite traer los datos de todos los clientes registrados, la segunda, ejecuta un filtro y solo traerá la información del cliente que coincida con la condición dada, que el documento de identificación sea 123.
     
     .crd.clr-paleBlue.p-5.mt-5
-      p Se ha abordado cada uno de los comandos que permiten manipular una base de datos relacional. A continuación se estudiará cuáles son los tipos de modelos que se manejan en este tipo de bases de datos.
-    
-    separador
+      p Se han abordado cada uno de los comandos que permiten manipular una base de datos relacional. A continuación, se estudiará cuáles son los tipos de modelos que se manejan en estas bases de datos.
 
-    .titulo-segundo.color-acento-botones.mt-5
-      h2 Modelo conceptual
+    .row.mt-5
+      h3 Modelo conceptual
     
     figure(data-aos="zoom-in-down")
       img(src="@/assets/curso/temas/tema2/tema2-img-03.svg", alt="Texto que describa la imagen")
@@ -118,8 +116,8 @@
             | Determinar los identificadores. 
 
       .titulo-sexto.color-acento-botones.mt-5
-        h5 Figura 2.
-        span Ejemplo Modelo conceptual
+        h5 Figura 2
+        p <i>Ejemplo Modelo conceptual</i>
             
       .col-lg-10.mt-5.mb-5
         figure
@@ -129,8 +127,8 @@
         .cajon.color--secundario.p-4
           p Como se puede observar en este diagrama, existe una relación entre dos entidades, una llamada clientes y la otra llamada sexo. En este caso particular, se evidencia que un sexo (hombre – mujer) está asociado a varios clientes, es decir, varios clientes pueden estar asociados al sexo ‘hombre’ y otros al sexo ‘mujer’, de esta forma,  se interpreta la asociación de la información en el sistema informático desde la comprensión literal del proceso real, al proceso del sistema de información a desarrollar.
 
-    .titulo-segundo.color-acento-botones.tema2.Mindex.mt-5
-      h2 Modelo lógico
+    .row.mt-5
+      h3 Modelo lógico
 
     img(src="@/assets/curso/temas/tema2/tema2-img-decorativa-02.svg").tema2-decorativa-02
 
@@ -148,8 +146,8 @@
       img(src="@/assets/curso/temas/tema2/tema2-img-decorativa-03.svg", alt="Texto que describa la imagen").tema2-decorativa-03
 
       .titulo-sexto.color-acento-botones.tema2.Mindex.mt-5
-        h5 Figura 3.
-        span Ejemplo Modelo lógico 
+        h5 Figura 3
+        p <i>Ejemplo Modelo lógico</i> 
             
       .col-lg-10.tema2.Mindex.mt-5.mb-5
         figure(data-aos="zoom-in")
@@ -158,10 +156,8 @@
       .cajon.color-acento-botones2.p-4
         p El modelo lógico anterior propone identificar cada uno de los tipos de datos que tienen las entidades en la base de datos, facilitando que el programador, o la persona encargada de realizar la codificación de la base de datos en un sistema de gestión de base de datos, cuente con la información precisa para realizar el proceso, porque al conocer los diferentes tipos de datos que se conectan con las llaves y la restricción que cada una de ellas tiene, el desarrollador puede construir el sistema de almacenamiento con los tipos de datos y conexiones que este requiera.
     
-    separador
-
-    .titulo-segundo.color-acento-botones.mt-5
-      h2 Modelo físico
+    .row.mt-5
+      h3 Modelo físico
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-11
@@ -180,8 +176,8 @@
                 p.mt-4 Seguidamente, podrá observar un ejemplo de la creación física de una base de datos y cómo quedaría implementada en un servidor de bases de datos real.
 
         .titulo-sexto.color-acento-botones.mt-5
-          h5 Figura 4.
-          span Código implementación modelo físico
+          h5 Figura 4
+          p <i>Código implementación modelo físico</i>
 
         .row.justify-content-center.mb-4
           .col-lg-6
@@ -189,11 +185,11 @@
               img(src="@/assets/curso/temas/tema2/tema2-img-10.svg")
           .col-lg-6
             .cajon.color-acento-botones3.p-4
-                p La imagen anterior presenta la codificación utilizada para crear la base de datos en el servidor, facultando la aplicación a almacenar la información de manera correcta dentro del sistema de almacenamiento. Una vez realizada la codificación de la base de datos y su creación, se deben generar las diferentes conexiones de la información, tal como lo presenta la siguiente imagen.
+                p La imagen presenta la codificación utilizada para crear la base de datos en el servidor, facultando a la aplicación a almacenar la información de manera correcta dentro del sistema de almacenamiento. Una vez realizada la codificación de la base de datos y su creación, se deben generar las diferentes conexiones de la información, tal como se expone en la siguiente imagen.
 
           .titulo-sexto.color-acento-botones.mt-5
-            h5 Figura 5.
-            span  Diagrama entidad - relación en servidor de base de dato
+            h5 Figura 5
+            p  <i>Diagrama entidad - relación en servidor de base de dato</i>
 
           figure
             img(src="@/assets/curso/temas/tema2/tema2-img-11.svg")

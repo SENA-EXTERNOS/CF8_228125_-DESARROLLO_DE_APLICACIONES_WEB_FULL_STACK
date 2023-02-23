@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Diseño y modelo de datos.',
     descripcionCurso:
-      'Este componente formativo está diseñado para comprender los principios básicos de las bases de datos NoSQL, las bases relacionales,  y las diferentes fuentes de datos y controles de acceso.',
+      'Este componente formativo está diseñado para comprender los principios básicos de las bases de datos NoSQL, las bases relacionales y las diferentes fuentes de datos y controles de acceso.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -111,14 +111,14 @@ export default {
     {
       tema: 'Bases de datos NoSQL',
       referencia:
-        'FaztCode. (28 de septiembre de 2021). Mongodb para Visual Studio Code Extensión. [Archivo de vídeo]. https://www.youtube.com/watch?v=fZgJHJO81dw',
+        'FaztCode. (2021). <i>Mongodb para Visual Studio Code Extensión</i> (video). YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=fZgJHJO81dw',
     },
     {
       tema: 'Bases de datos relacionales',
       referencia:
-        'Coronado, D., Rodríguez, R., Tineo, L., & Carrasquel Oropeza, S. (2018). Gestión de Datos Difusos: Atributos Tipo 2 y Tipo 3 en bases de datos relacionales. <i> Publicaciones En Ciencias Y Tecnología</i>, 12(2), 83-95.',
+        'Coronado, D., Rodríguez, R., Tineo, L. & Carrasquel Oropeza, S. (2018). Gestión de Datos Difusos: Atributos Tipo 2 y Tipo 3 en bases de datos relacionales. <i>Publicaciones En Ciencias Y Tecnología, 12</i>(2), p. 83-95.',
       tipo: 'Artículo',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_b4db22235526430295652b34b49ad6dd ',

@@ -2,15 +2,8 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-sexto.color-acento-contenido.mb-5
-      .row.mb-2
-        h5 Desarrollo de aplicaciones web Full stack
-      .row
-        span Síntesis: Diseño y modelo de datos.
-    
-    img(src="@/assets/curso/temas/sintesis-img-01.svg", alt="alt").imagen-sintesis-1
 
-    p.mb-4 La siguiente síntesis presenta un resumen de la temática estudiada en el componente formativo.
+    p.mb-4 La siguiente síntesis presenta un resumen de la temática estudiada en el componente formativo:
 
     .row.justify-content-center
       .col-lg-10.mb-5

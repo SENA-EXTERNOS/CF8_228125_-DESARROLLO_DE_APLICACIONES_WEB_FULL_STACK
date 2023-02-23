@@ -15,8 +15,9 @@
         .crd.clr-lightBlue.p-4.mb-5
           p Se denomina ‘fuente de dato’ a cualquier elemento que pueda suministrar datos e información, sin importar su formato o lugar de almacenamiento. Las fuentes de datos se originan a partir de las diferentes interacciones que los sistemas de información generan diariamente, por ejemplo, un archivo de Excel, empleado por una persona o compañía para disponer la información de la nómina de sus empleados, guarda, a su vez, información de nombres, contacto, correo, u otros datos diligenciados, y puede considerase una fuente de información.
 
-        p.mb-5 Existen diferentes fuentes de información como los archivos de intercambio de información, utilizados a través de la internet para almacenar información temporal, que son recopilados por sistemas de tratamiento de información como bases de datos, entre otros.
-        p #[b Conozca los diferentes tipos de fuentes de datos con sus respectivas características.]
+        p.mb-5 Existen diferentes fuentes de información, como los archivos de intercambio de información, utilizados a través de la Internet, para almacenar información temporal, los cuales son recopilados por sistemas de tratamiento de la información, como bases de datos, entre otros.
+
+        p Conozca los diferentes tipos de fuentes de datos con sus respectivas características:
 
     .row.justify-content-center
         .col-lg-11.mb-5
@@ -46,8 +47,7 @@
                 .row
                   .col-lg-12
                     .h4 XML
-                    p.mb-3  Significa #[i Extensible Markup Language]. Es un lenguaje de marcado similar a HTML, pero es una especificación de W3C como lenguaje de marcado de propósito general. A diferencia de otros lenguajes de marcado, XML no está predefinido, por lo que al trabajarlo, se debe definir sus propias etiquetas. Su principal objetivo es compartir datos a través de diferentes sistemas como Internet.
-
+                    p.mb-3  Significa Extensible Markup Language. Es un lenguaje de marcado similar a HTML, pero es una especificación de W3C como lenguaje de marcado de propósito general. A diferencia de otros lenguajes de marcado, XML no está predefinido por lo que, al trabajarlo, se deben definir sus propias etiquetas. Su principal objetivo es el de compartir datos a través de diferentes sistemas, como el Internet.
 
             div(x="89%" y="78%" tooltip="Ver más" numero="")
               .tarjeta.white-card.p-4
@@ -59,7 +59,8 @@
         p Ahora, se presentan las principales características de cada uno de estos tipos de fuentes.
 
         .titulo-sexto.color-acento-botones.mt-5
-          h5 Características de los tipos de fuentes
+          h4 Tabla 1
+          p <i>Características de los tipos de fuentes</i>
 
         SlyderF.mb-5(columnas="col-12 col-lg-6 col-xl-6 col-xs-12")
           .tarjeta-avatar

@@ -20,8 +20,8 @@
       .col-lg-7
         p.mb-4 En la vida diaria se aplican controles de acceso en los hogares, utilizando mecanismos de protección y control como protección al ingreso de personas no deseadas que tengan intenciones malintencionadas, por ejemplo, las puertas permiten que solo las personas con llave puedan ingresar a la vivienda.  Esta es una manera muy sencilla de comprender la teoría de ‘controles de acceso’, básicamente son todas las barreras, tanto físicas como lógicas, aplicadas a la protección de elementos valiosos para una empresa o sistema de información.  Los controles se usan para proteger la información contenida en ese sistema en particular y los mecanismos de acceso deben ser implementados de acuerdo con una política de seguridad de la información, contemplando el debido y correcto uso de la información. 
         .cajon.color-primario.p-4
-          p La información es un bien importante que personas y empresas usan para sus relaciones y procesos de negocio, por tanto, se ha establecido un código de leyes que aseguran tal bien. La ley 1273 del 5 de enero del 2009 modificó el código penal colombiano al crear un bien denominado “Información”, y sus subsiguientes artículos estipulan sanciones para todo aquel que atenten contra dicho bien.  Dos de sus artículos más importantes son: 
-    
+          p La información es un bien importante que personas y empresas utilizan para sus relaciones y procesos de negocio; por lo tanto, se ha establecido un código de leyes que aseguran este bien. La ley 1273 del 5 de enero del 2009 modificó el código penal colombiano, al crear un bien denominado “Información”, y sus subsiguientes artículos estipulan sanciones para todo aquel que atente contra este bien. Dos de sus artículos más importantes son:
+
       .col-lg-5
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-12
@@ -35,17 +35,15 @@
         p Quien, sin autorización o fuera de lo acordado, acceda, en todo o en parte, a un sistema informático protegido o no con una medida de seguridad, o se mantenga dentro del mismo en contra de la voluntad de quien tenga el legítimo derecho a excluirlo, incurrirá en pena de prisión de cuarenta y ocho (48) a noventa y seis (96) meses y en multa de cien (100) a mil (1.000) salarios mínimos legales mensuales vigentes.
       .tarjeta.color-acento-botones--borde.p-4(titulo="Artículo 269E")
         h4 Uso de #[i software] malicioso: 
-        p Quien sin estar facultado para ello, produzca, trafique, adquiera, distribuya, venda, envíe, introduzca o extraiga del territorio nacional #[i software] malicioso u otros programas de computación de efectos dañinos, incurrirá en pena de prisión de cuarenta y ocho (48) a noventa y seis (96) meses y en multa de cien (100) a mil (1.000) salarios mínimos legales mensuales vigentes.
-    
+        p Quien, sin estar facultado para ello, produzca, trafique, adquiera, distribuya, venda, envíe, introduzca o extraiga del territorio nacional software malicioso u otros programas de computación de efectos dañinos, incurrirá en pena de prisión de cuarenta y ocho (48) a noventa y seis (96) meses y en multa de cien (100) a mil (1.000) salarios mínimos legales mensuales vigentes.
+
     .row.justify-content-center.align-items-center.mb-3.mt-4
       .col-lg-10.estiloCol
         p La Ley 1273 explica las sanciones que se aplicarían si una persona, utilizando medidas o procesos informáticos, atenta contra la información o los datos almacenados en un sistema, de hacerlo, incurriría en sanciones significativas. Teniendo en cuenta que el propósito de las personas dedicadas al crimen cibernético es violar y atentar contra las medidas de seguridad que poseen los sistemas, se hace relevante tener en cuenta cada uno de estos procesos y estar atentos a todo lo ocurrido en una infraestructura y sistemas de almacenamiento de los sistemas. 
     img(src="@/assets/curso/temas/tema4/tema4-img-decorativa-01.svg", alt="Texto que describa la imagen").tema4-decorativa-01    
     
-    separador
-      
-    .titulo-segundo.color-acento-botones.mt-5
-      h2 Control de acceso basado en roles
+    .row.mt-5
+      h3 Control de acceso basado en roles
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-5
@@ -56,7 +54,7 @@
       .col-lg-7
         .crd.clr-paleBlue.p-4.mb-5
           p El control de acceso basado en roles (RBAC), es una función de seguridad para controlar el acceso de usuarios a tareas que habitualmente están restringidas a un superusuario que, mediante la aplicación de atributos de seguridad a procesos y usuarios, el RBAC puede dividir sus capacidades entre varios administradores. Tal gestión de derechos de procesos se implementan mediante privilegios, a través de RBAC como alternativa al modelo de superusuario. (Oracle, 2010.)
-        p El usuario #[b #[i root]], también conocido como superusuario, es omnipotente, como también los programas que se ejecutan como root, o los programas #[b #[i setuid]]. El usuario #[b #[i root]] puede leer y escribir en cualquier archivo, ejecutar todos los programas y enviar señales de terminación a cualquier proceso. Un programa usurpado puede realizar cualquier tarea en el sistema (Oracle, 2010), de hecho, cualquier persona que puede convertirse en superusuario puede modificar el cortafuegos de un sitio, modificar la pista de auditoría, leer registros confidenciales y apagar toda la red. 
+        p El usuario root, también conocido como superusuario, es omnipotente, como también los programas que se ejecutan como root, o los programas <i>setuid</i>. El usuario root puede leer y escribir en cualquier archivo, ejecutar todos los programas y enviar señales de terminación a cualquier proceso. Un programa usurpado puede realizar cualquier tarea en el sistema (Oracle, 2010), de hecho, cualquier persona que puede convertirse en superusuario, puede modificar el cortafuegos de un sitio, modificar la pista de auditoría, leer registros confidenciales y apagar toda la red. 
 
     p.mb-5 La flexibilidad en la configuración de los roles posibilita una variedad de políticas de seguridad, y aunque incluye pocos roles, es posible configurar fácilmente los tres roles recomendados, basados en perfiles de derechos con el mismo nombre (Oracle, 2010). Estos roles son:
 
@@ -64,11 +62,11 @@
       .col-lg-7
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Administrador principal")
-            p Un rol poderoso equivalente al usuario #[i root] o superusuario.
+            p Un rol poderoso equivalente al usuario root o superusuario.
           .row(titulo="<i>root</i>")
-            p Al igual que el anterior es un rol potente con el impedimento de iniciar sesión. Un usuario debe iniciar primero sesión y luego asumir el rol #[i root] asignado.
+            p Al igual que el anterior es un rol potente con el impedimento de iniciar sesión. Un usuario debe iniciar primero sesión y luego asumir el rol <i>root</i> asignado.
           .row(titulo="Administrador del sistema")
-            p Un rol menos poderoso para la administración y no está relacionado con la seguridad. Este rol puede gestionar sistemas de archivos, correo e instalación de #[i software], sin embargo, no puede definir contraseñas.
+            p Un rol menos poderoso para la administración y no está relacionado con la seguridad. Este rol puede gestionar sistemas de archivos, correo e instalación de <i>software</i>, sin embargo, no puede definir contraseñas.
           .row(titulo="Operador")
             p Rol de administrador junior para operaciones como copias de seguridad y gestión de impresoras.                                    
 
@@ -76,10 +74,8 @@
         figure(data-aos="fade-right")
           img(src="@/assets/curso/temas/tema4/tema4-img-04.png")
 
-    separador
-
-    .titulo-segundo.color-acento-botones.mt-5
-      h2 Acceso basado en el computador principal
+    .row.mt-5
+      h3 Acceso basado en el computador principal
 
     .row.justify-content-center.align-items-center.mb-4    
       .col-lg-7
@@ -145,7 +141,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
-
+              
 </template>
 
 <script>

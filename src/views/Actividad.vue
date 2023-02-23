@@ -7,11 +7,11 @@
       .col-5.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/curso/temas/actividad/actividad_01.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/template/sm.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-botones.mt-5
-          h2 Opción múltiple
-        p.mb-5 Evaluar la apropiación de las temáticas estudiadas en el componente formativo.
+          h2 Diseño y modelo de datos
+        p.mb-5 Apreciado aprendiz, a continuación, encontrará una serie de preguntas que deberá resolver, con el objetivo de evaluar la aprehensión de los conocimientos expuestos en este componente formativo:
         .tarjeta.actividad.p-3.mt-5
           .row.justify-content-around.align-items-center           
             .col-sm.mb-3.mb-sm-0
