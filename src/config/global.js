@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Diseño y modelo de datos.',
+    componenteFormativo: 'Diseño y modelo de datos',
     descripcionCurso:
       'Este componente formativo está diseñado para comprender los principios básicos de las bases de datos NoSQL, las bases relacionales y las diferentes fuentes de datos y controles de acceso.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
@@ -41,7 +41,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Bases de Datos NoSQL',
+        titulo: 'Bases de datos NoSQL',
         desarrolloContenidos: true,
       },
 

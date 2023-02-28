@@ -54,7 +54,7 @@
       .col-lg-7
         .crd.clr-paleBlue.p-4.mb-5
           p El control de acceso basado en roles (RBAC), es una función de seguridad para controlar el acceso de usuarios a tareas que habitualmente están restringidas a un superusuario que, mediante la aplicación de atributos de seguridad a procesos y usuarios, el RBAC puede dividir sus capacidades entre varios administradores. Tal gestión de derechos de procesos se implementan mediante privilegios, a través de RBAC como alternativa al modelo de superusuario. (Oracle, 2010.)
-        p El usuario root, también conocido como superusuario, es omnipotente, como también los programas que se ejecutan como root, o los programas <i>setuid</i>. El usuario root puede leer y escribir en cualquier archivo, ejecutar todos los programas y enviar señales de terminación a cualquier proceso. Un programa usurpado puede realizar cualquier tarea en el sistema (Oracle, 2010), de hecho, cualquier persona que puede convertirse en superusuario, puede modificar el cortafuegos de un sitio, modificar la pista de auditoría, leer registros confidenciales y apagar toda la red. 
+        p El usuario <i>root</i>, también conocido como superusuario, es omnipotente, como también los programas que se ejecutan como <i>root</i>, o los programas <i>setuid</i>. El usuario <i>root</i> puede leer y escribir en cualquier archivo, ejecutar todos los programas y enviar señales de terminación a cualquier proceso. Un programa usurpado puede realizar cualquier tarea en el sistema (Oracle, 2010), de hecho, cualquier persona que puede convertirse en superusuario, puede modificar el cortafuegos de un sitio, modificar la pista de auditoría, leer registros confidenciales y apagar toda la red. 
 
     p.mb-5 La flexibilidad en la configuración de los roles posibilita una variedad de políticas de seguridad, y aunque incluye pocos roles, es posible configurar fácilmente los tres roles recomendados, basados en perfiles de derechos con el mismo nombre (Oracle, 2010). Estos roles son:
 
@@ -62,7 +62,7 @@
       .col-lg-7
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Administrador principal")
-            p Un rol poderoso equivalente al usuario root o superusuario.
+            p Un rol poderoso equivalente al usuario <i>root</i> o superusuario.
           .row(titulo="<i>root</i>")
             p Al igual que el anterior es un rol potente con el impedimento de iniciar sesión. Un usuario debe iniciar primero sesión y luego asumir el rol <i>root</i> asignado.
           .row(titulo="Administrador del sistema")

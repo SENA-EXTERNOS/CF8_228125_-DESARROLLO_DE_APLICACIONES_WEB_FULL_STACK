@@ -63,7 +63,7 @@
         p Al referirse a los tan populares archivos JSON o XML, los cuales contienen una estructura muy particular para la organización de la información implementada en las bases NoSQL, se evidencia la ventaja de almacenar información organizada y con poco espacio de almacenamiento. A continuación, se explica el almacenamiento de este tipo de modelo de datos:
 
       .titulo-sexto.color-acento-botones.mt-5
-        h5 Figura 1.
+        h5 Figura 1
         p <em>Modelo de archivo JSONa</em>
 
       .col-lg-12.mt-3
@@ -126,13 +126,12 @@
               h4.font-size-tarjeta-avatar-h.mb-3 Cassandra.
               p.font-size-tarjeta-avatar-p.mb-0 Es un gestor de bases de datos orientado a la filosofía NoSQL, permite trabajar con grandes volúmenes de información. Su código es abierto, permitiendo cualquier modificación de acuerdo a las necesidades tecnológicas de la organización o de quien requiera utilizar la herramienta con propósitos particulares o empresariales. Se encuentra escrito en lenguaje Java, posibilitando una amplia capacidad de adaptación en diferentes sistemas operativos, de manera distribuida, con balanceo de carga.
 
-    .crd.clr-paleYellow.p-4
-      .row.justify-content-center.align-items-center.mb-4
-        .col-lg-7
-          p Los gestores de bases de datos permiten realizar las funciones de administración y mantenimiento de los datos de manera fácil y sencilla, esto ayuda a los administradores de estos sistemas a realizar labores de mantenimiento y gestión de manera rápida y eficiente. No obstante, en algunas ocasiones este proceso se suele llevar a cabo a través de consolas de administración, dilatando el proceso al ser una labor más compleja, especialmente con respecto a las copias de seguridad, ya que normalmente, en estos sistemas, es posible ejecutar las copias de manera automática, sin requerir una persona que se dedique a realizar este proceso a diario en consola, cometiendo así menos errores al momento de manipular la información. Otros procesos pueden ser actualización de datos, inserción de datos nuevos o eliminación de datos que ya no corresponden o no se necesitan en los procesos de negocio de la organización. Ahora bien, los gestores de bases de datos tienen muchas ventajas, una de ellas es la forma de conectarse a diferentes bases de datos, independiente del motor de las bases, es decir, se puede administrar varias bases de datos al tiempo con múltiples conexiones, significando una gran ventaja desde el punto de vista de licenciamiento y la eficiencia.
-        .col-lg-5
-          figure(data-aos="zoom-in")
-            img(src="@/assets/curso/temas/tema1/tema1-img-10.png", alt="Texto que describa la imagen")
+    .row.justify-content-center.align-items-center.mb-4.tema1-bgr1.p-4
+      .col-lg-8
+        p Los gestores de bases de datos permiten realizar las funciones de administración y mantenimiento de los datos de manera fácil y sencilla, esto ayuda a los administradores de estos sistemas a realizar labores de mantenimiento y gestión de manera rápida y eficiente. No obstante, en algunas ocasiones este proceso se suele llevar a cabo a través de consolas de administración, dilatando el proceso al ser una labor más compleja, especialmente con respecto a las copias de seguridad, ya que normalmente, en estos sistemas, es posible ejecutar las copias de manera automática, sin requerir una persona que se dedique a realizar este proceso a diario en consola, cometiendo así menos errores al momento de manipular la información. Otros procesos pueden ser actualización de datos, inserción de datos nuevos o eliminación de datos que ya no corresponden o no se necesitan en los procesos de negocio de la organización. Ahora bien, los gestores de bases de datos tienen muchas ventajas, una de ellas es la forma de conectarse a diferentes bases de datos, independiente del motor de las bases, es decir, se puede administrar varias bases de datos al tiempo con múltiples conexiones, significando una gran ventaja desde el punto de vista de licenciamiento y la eficiencia.
+      .col-lg-4
+        figure(data-aos="zoom-in")
+          img(src="@/assets/curso/temas/tema1/tema1-img-10.png", alt="Texto que describa la imagen")
       
 </template>
 

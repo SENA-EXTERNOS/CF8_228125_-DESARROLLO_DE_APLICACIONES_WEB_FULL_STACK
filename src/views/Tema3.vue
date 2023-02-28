@@ -47,7 +47,7 @@
                 .row
                   .col-lg-12
                     .h4 XML
-                    p.mb-3  Significa Extensible Markup Language. Es un lenguaje de marcado similar a HTML, pero es una especificación de W3C como lenguaje de marcado de propósito general. A diferencia de otros lenguajes de marcado, XML no está predefinido por lo que, al trabajarlo, se deben definir sus propias etiquetas. Su principal objetivo es el de compartir datos a través de diferentes sistemas, como el Internet.
+                    p.mb-3  Significa <i>Extensible Markup Language</i>. Es un lenguaje de marcado similar a HTML, pero es una especificación de W3C como lenguaje de marcado de propósito general. A diferencia de otros lenguajes de marcado, XML no está predefinido por lo que, al trabajarlo, se deben definir sus propias etiquetas. Su principal objetivo es el de compartir datos a través de diferentes sistemas, como el Internet.
 
             div(x="89%" y="78%" tooltip="Ver más" numero="")
               .tarjeta.white-card.p-4
@@ -162,15 +162,14 @@
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/temas/tema3/tema3-img-08.svg", alt="alt").img400.m-auto
 
-      .crd.clr-paleYellow.p-4
-        .row.justify-content-center.align-items-center
-          .col-lg-5
-            .row.justify-content-center.align-items-center.mb-4
-              .col-lg-11
-                figure(data-aos="zoom-in")
-                  img(src="@/assets/curso/temas/tema3/tema3-img-09.svg")
-          .col-lg-7
-            p.mb-4 Es importante tener presente que dentro de estas características se debe considerar que el volumen de información es esencial para su clasificación. En el caso de las fuentes primarias y secundarias, el volumen de información es de gran escala y genera una cantidad de datos e información que requiere un proceso de almacenamiento y procesamiento con una capacidad de cómputo significativa, mientras que las fuentes terciarias solo tienen una pequeña porción de la información,  presentando pequeños resultados que,   en caso que el usuario requiera especificar o ver la información completa, procederá a efectuar un esfuerzo por realizar la consulta de toda la información que coincida con el criterio solicitado por el mismo usuario. Esta manera de ejecutar este proceso resulta más eficiente, en tanto no se utiliza la capacidad total de procesamiento, generando mayor eficiencia al sistema.  Los buscadores de información son un ejemplo de esto, traen al usuario una porción de la información para que sea él quien elija cuál es el dato específico por consultar y,  una vez el usuario selecciona la opción, procede a desplegar los datos requeridos. 
+      .row.justify-content-center.align-items-center.tema1-bgr1.p-4
+        .col-lg-5
+          .row.justify-content-center.align-items-center.mb-4
+            .col-lg-11
+              figure(data-aos="zoom-in")
+                img(src="@/assets/curso/temas/tema3/tema3-img-09.svg")
+        .col-lg-7
+          p.mb-4 Es importante tener presente que dentro de estas características se debe considerar que el volumen de información es esencial para su clasificación. En el caso de las fuentes primarias y secundarias, el volumen de información es de gran escala y genera una cantidad de datos e información que requiere un proceso de almacenamiento y procesamiento con una capacidad de cómputo significativa, mientras que las fuentes terciarias solo tienen una pequeña porción de la información,  presentando pequeños resultados que,   en caso que el usuario requiera especificar o ver la información completa, procederá a efectuar un esfuerzo por realizar la consulta de toda la información que coincida con el criterio solicitado por el mismo usuario. Esta manera de ejecutar este proceso resulta más eficiente, en tanto no se utiliza la capacidad total de procesamiento, generando mayor eficiencia al sistema.  Los buscadores de información son un ejemplo de esto, traen al usuario una porción de la información para que sea él quien elija cuál es el dato específico por consultar y,  una vez el usuario selecciona la opción, procede a desplegar los datos requeridos. 
       
 
 
