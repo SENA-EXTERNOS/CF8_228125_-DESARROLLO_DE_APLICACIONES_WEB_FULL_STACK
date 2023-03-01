@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Bases de Datos NoSQL
+      h1 Bases de datos NoSQL
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7

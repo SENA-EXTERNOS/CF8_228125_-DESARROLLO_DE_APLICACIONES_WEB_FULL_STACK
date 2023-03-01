@@ -35,7 +35,7 @@
         p Quien, sin autorización o fuera de lo acordado, acceda, en todo o en parte, a un sistema informático protegido o no con una medida de seguridad, o se mantenga dentro del mismo en contra de la voluntad de quien tenga el legítimo derecho a excluirlo, incurrirá en pena de prisión de cuarenta y ocho (48) a noventa y seis (96) meses y en multa de cien (100) a mil (1.000) salarios mínimos legales mensuales vigentes.
       .tarjeta.color-acento-botones--borde.p-4(titulo="Artículo 269E")
         h4 Uso de #[i software] malicioso: 
-        p Quien, sin estar facultado para ello, produzca, trafique, adquiera, distribuya, venda, envíe, introduzca o extraiga del territorio nacional software malicioso u otros programas de computación de efectos dañinos, incurrirá en pena de prisión de cuarenta y ocho (48) a noventa y seis (96) meses y en multa de cien (100) a mil (1.000) salarios mínimos legales mensuales vigentes.
+        p Quien sin estar facultado para ello, produzca, trafique, adquiera, distribuya, venda, envíe, introduzca o extraiga del territorio nacional <i>software</i> malicioso u otros programas de computación de efectos dañinos, incurrirá en pena de prisión de cuarenta y ocho (48) a noventa y seis (96) meses y en multa de cien (100) a mil (1.000) salarios mínimos legales mensuales vigentes.
 
     .row.justify-content-center.align-items-center.mb-3.mt-4
       .col-lg-10.estiloCol
