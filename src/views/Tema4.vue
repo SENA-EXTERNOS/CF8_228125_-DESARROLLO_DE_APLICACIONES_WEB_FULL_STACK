@@ -29,7 +29,7 @@
               img(src="@/assets/curso/temas/tema4/tema4-img-02.png")
 
 
-    TabsA.color-acento--botones
+    TabsA.color-acento-botones
       .tarjeta.color-acento-botones--borde.p-4(titulo="Artículo 269A")
         h4 Acceso abusivo a un sistema informático:
         p Quien, sin autorización o fuera de lo acordado, acceda, en todo o en parte, a un sistema informático protegido o no con una medida de seguridad, o se mantenga dentro del mismo en contra de la voluntad de quien tenga el legítimo derecho a excluirlo, incurrirá en pena de prisión de cuarenta y ocho (48) a noventa y seis (96) meses y en multa de cien (100) a mil (1.000) salarios mínimos legales mensuales vigentes.
@@ -40,7 +40,7 @@
     .row.justify-content-center.align-items-center.mb-3.mt-4
       .col-lg-10.estiloCol
         p La Ley 1273 explica las sanciones que se aplicarían si una persona, utilizando medidas o procesos informáticos, atenta contra la información o los datos almacenados en un sistema, de hacerlo, incurriría en sanciones significativas. Teniendo en cuenta que el propósito de las personas dedicadas al crimen cibernético es violar y atentar contra las medidas de seguridad que poseen los sistemas, se hace relevante tener en cuenta cada uno de estos procesos y estar atentos a todo lo ocurrido en una infraestructura y sistemas de almacenamiento de los sistemas. 
-    img(src="@/assets/curso/temas/tema4/tema4-img-decorativa-01.svg", alt="Texto que describa la imagen").tema4-decorativa-01    
+
     
     .row.mt-5
       h3 Control de acceso basado en roles
