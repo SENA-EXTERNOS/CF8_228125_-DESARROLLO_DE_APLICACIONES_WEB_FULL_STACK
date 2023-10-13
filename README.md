@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://sena-externos.github.io/CF8_228125_DESARROLLO_DE_APLICACIONES_WEB_FULL_STACK/](https://sena-externos.github.io/CF8_228125_DESARROLLO_DE_APLICACIONES_WEB_FULL_STACK/)
 
 #
 
