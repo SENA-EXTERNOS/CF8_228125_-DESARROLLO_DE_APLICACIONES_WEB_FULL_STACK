@@ -79,7 +79,7 @@
 
     .row.justify-content-center.align-items-center.mb-4    
       .col-lg-7
-        p.mb-4 Este modelo de acceso es impreciso y poco seguro, consiste en tener una computadora que interactúa como intermediarioa con el servidor de almacenamiento, si esta computadora tiene privilegios de modificación o privilegios de acceso como usuario administrador, todos los usuarios asociados a ella podrían realizar modificaciones en la base de datos sin ninguna restricción. Aunque es un sistema simple que no representa un gran proceso de implementación, es utilizado comúnmente en muchas organizaciones por su fácil implementación y mantenimiento. Igualmente, la conexión de acceso remoto, regularmente usada para acceder a los equipos desde cualquier lugar, siempre y cuando se proporcionen las credenciales necesarias para poder tener el acceso, podría generar un problema a futuro, en tanto no se pueden controlar de manera adecuada los niveles de acceso a la información.
+        p.mb-4 Este modelo de acceso es impreciso y poco seguro, consiste en tener una computadora que interactúa como intermediario con el servidor de almacenamiento, si esta computadora tiene privilegios de modificación o privilegios de acceso como usuario administrador, todos los usuarios asociados a ella podrían realizar modificaciones en la base de datos sin ninguna restricción. Aunque es un sistema simple que no representa un gran proceso de implementación, es utilizado comúnmente en muchas organizaciones por su fácil implementación y mantenimiento. Igualmente, la conexión de acceso remoto, regularmente usada para acceder a los equipos desde cualquier lugar, siempre y cuando se proporcionen las credenciales necesarias para poder tener el acceso, podría generar un problema a futuro, en tanto no se pueden controlar de manera adecuada los niveles de acceso a la información.
         p Dentro de las características principales a resaltar de los controles de acceso, se encuentran las siguientes:
       .col-lg-5
         .row.justify-content-center.align-items-center
@@ -131,7 +131,7 @@
               img(src='@/assets/curso/temas/tema4/tema4-img-09.png', alt='Texto que describa la imagen')
 
           .col-md-6.mb-4.mb-md-0
-            p Esta característica se relaciona con las credenciales de acceso, la información requiere tener un dueño o responsable de su manipulación y uso. Ejemplo, las redes sociales o correo electrónico, ambos tienen mecanismos de acceso como usuarios y contraseñas o, en algunos casos, el acceso utilizan códigos enviados a dispositivos móviles con el fin de garantizar que quien solicita el acceso a la información sea la persona responsable o dueña de ella.
+            p Esta característica se relaciona con las credenciales de acceso, la información requiere tener un dueño o responsable de su manipulación y uso. Ejemplo, las redes sociales o correo electrónico, ambos tienen mecanismos de acceso como usuarios y contraseñas o, en algunos casos, el acceso utiliza códigos enviados a dispositivos móviles con el fin de garantizar que quien solicita el acceso a la información sea la persona responsable o dueña de ella.
    
     .tarjeta.color-secundario.p-3.mb-5.mt-5
       .row.justify-content-around.align-items-center

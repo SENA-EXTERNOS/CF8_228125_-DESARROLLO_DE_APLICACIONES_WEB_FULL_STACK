@@ -9,7 +9,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7
-        .crd.clr-paleBlue.p-4
+        .crd.clr-paleBlue.p-4.mb-3
           p.mb-0 Las bases de datos NoSQL nacen como una alternativa de almacenamiento de información con una estructura distinta a la convencional, comúnmente conocida como ‘base de datos relacional’, y poseen un importante segmento del mercado, abarcando gran parte de los procesos de negocio que manejan las empresas hoy día.
 
         p Los procesos, por lo general, tienden a evolucionar de acuerdo a como se desarrollan los procesos de negocio dentro de las organizaciones, esto quiere decir que las bases de datos NoSQL, de alguna manera, se relacionan en gran medida con la evolución de los procesos de almacenamiento de información, lo cual implica, a su vez, que en muchos de los procesos que hoy se manejan, las bases de datos NoSQL se implementan no solo por compañías o empresas específicas, también por diferentes actores del mundo de la computación, incluyendo empresas, particulares o comunidad en general, todos esperando generar soluciones de almacenamiento a sus proyectos.                  
@@ -26,7 +26,7 @@
         .tarjeta--container.row
           .col-md.tarjeta.color-secundario.p-5
             .row.justify-content-center.mb-4
-              .col-6
+              .col-6.col-lg-5
                 figure
                   img(src='@/assets/curso/temas/tema1/tema1-img-02.svg', alt='Texto que describa la imagen')
                 
@@ -34,7 +34,7 @@
             p Su rendimiento, en comparación con las bases de datos tradicionales, es superior y utiliza menos recursos de cómputo, evitan requerir una gran infraestructura de cómputo para llevar a cabo su instalación o el procesamiento de información.
           .col-md.tarjeta.color-primario.p-5
             .row.justify-content-center.mb-4
-              .col-6
+              .col-6.col-lg-5
                 figure
                   img(src='@/assets/curso/temas/tema1/tema1-img-03.svg', alt='Texto que describa la imagen')
             
@@ -57,23 +57,22 @@
         figure(data-aos="fade-right")
           img(src="@/assets/curso/temas/tema1/tema1-img-04.svg")
       .col-lg-7
-        .crd.clr-paleBlue.p-4
+        .crd.clr-paleBlue.p-4.mb-3
           p.mb-0 El modelo de datos, está determinado por la forma en la cual se organizan los datos y los campos de la base misma. Es importante tener en cuenta que las bases de datos NoSQL utilizan un nivel de archivo para organizar la información que contienen, es decir, se utilizan como si fuesen archivos planos que contienen una estructura sencilla pero organizada, en la que se ubica toda la información que debe contener y generar al momento de realizar el registro de los datos. 
 
         p Al referirse a los tan populares archivos JSON o XML, los cuales contienen una estructura muy particular para la organización de la información implementada en las bases NoSQL, se evidencia la ventaja de almacenar información organizada y con poco espacio de almacenamiento. A continuación, se explica el almacenamiento de este tipo de modelo de datos:
 
       .titulo-sexto.color-acento-botones.mt-5
         h5 Figura 1
-        p <em>Modelo de archivo JSONa</em>
-
-      .col-lg-12.mt-3
-            figure
-              img(src='@/assets/curso/temas/tema1/tema1-img-05.svg', alt='Texto que describa la imagen')
+        p.mb-0 <em>Modelo de archivo JSONa</em>
+      .col-lg-12.mt-1
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-img-05.svg', alt='Texto que describa la imagen')
       .row.justify-content-around.aling-items-center
         .col-lg-11.mb-lg-0.mt-lg-3
           .row.mt-5
             .col-lg-12
-              .crd.clr-paleRose.p-4
+              .crd.clr-paleRose.p-4.mb-3
                 p.mb-0 Como se observa en la imagen, el modelo de datos de una base de datos NoSQL se refiere a la equivalencia o relación que puedan estar compuestas por una o más relaciones de datos, estos archivos se encuentran estrechamente relacionados con la información complementaria de cada uno de ellos, es decir, la información se va acumulando hasta que forma lo que conocemos como base de datos NoSQL.
               p.mt-2 Dentro de los aspectos a destacar en este proceso, es que la información no se encuentra estrechamente relacionada o restringida por algún tipo de integridad referencial, como sí suele suceder con las bases de datos convencionales, y al no existir dicha restricción, los datos fluyen de manera directa permitiendo que el procesamiento se haga al nivel de archivos planos, mejorando los tiempos de respuesta y, a su vez, procesando mayores cantidades de datos con un menor esfuerzo de cómputo.
     
@@ -83,11 +82,11 @@
           .col-lg-12
             figure(data-aos="fade-right")
               img(src="@/assets/curso/temas/tema1/tema1-img-06.svg")
-      .col-lg-7
+      .col-lg-7.z-999
         .crd.clr-paleBlue.p-4
           p Los modelos de datos son sumamente necesarios en los sistemas de información, permiten visualizar la manera en la que la información y los datos serán almacenados y procesados de acuerdo a las solicitudes del sistema de información. Es importante tener en cuenta que un sistema de información requiere de un sistema de almacenamiento eficiente y estable, no solo para almacenar la información, también, proporciona las bases necesarias que permite a los usuarios recibir los datos de manera íntegra, segura y en tiempos razonables; claro está, de acuerdo con la capacidad de respuesta de los sistemas implementados.
 
-        p.mt-4 Para conocer el proceso de codificación de una base de datos en MongoDB, se invita a ver el video Mongodb para Visual Studio Code #[b Extensión], encontrado en el material complementario.
+        p.mt-4.z-999 Para conocer el proceso de codificación de una base de datos en MongoDB, se invita a ver el video Mongodb para Visual Studio Code #[b Extensión], encontrado en el material complementario.
     
     .row.mt-5
       h3 Gestores
@@ -97,9 +96,9 @@
         .row.justify-content-up.align-items-center.mb-4
           .col-lg-9
             .cajon.color-acento-contenido.p-4
-              p Existen diversos gestores de bases de datos NoSQL, algunos de ellos destacan por su facilidad de uso y por la integración que ofrecen al usuario o a los administradores de bases de datos (DBA).
+              p.mb-0 Existen diversos gestores de bases de datos NoSQL, algunos de ellos destacan por su facilidad de uso y por la integración que ofrecen al usuario o a los administradores de bases de datos (DBA).
           .col-lg-3
-            figure(data-aos="fade-left")
+            figure(data-aos="fade")
               img(src="@/assets/curso/temas/tema1/tema1-img-07.png").tema1-decorativa-01
             
     img(src="@/assets/curso/temas/tema1/tema1-img-decorativa-01.svg").tema1-decorativa-02

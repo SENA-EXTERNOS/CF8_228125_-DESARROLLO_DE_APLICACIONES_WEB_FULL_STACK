@@ -60,7 +60,7 @@
                   p Se presentan, así, dos posibilidades. La primera permite traer los datos de todos los clientes registrados, la segunda, ejecuta un filtro y solo traerá la información del cliente que coincida con la condición dada, que el documento de identificación sea 123.
     
     .crd.clr-paleBlue.p-5.mt-5
-      p Se han abordado cada uno de los comandos que permiten manipular una base de datos relacional. A continuación, se estudiará cuáles son los tipos de modelos que se manejan en estas bases de datos.
+      p.mb-0 Se han abordado cada uno de los comandos que permiten manipular una base de datos relacional. A continuación, se estudiará cuáles son los tipos de modelos que se manejan en estas bases de datos.
 
     .row.mt-5
       h3 Modelo conceptual
@@ -71,7 +71,7 @@
     .row.justify-content-around.aling-items-center.mb-5
       .col-lg-10.col-sm-10.cont_bg-2(data-aos="zoom-in-down")
         .crd.clr-lightBlue.p-4
-          p El modelo conceptual de la base de datos es una manera de interpretar las necesidades que se tienen al implementar un modelo de almacenamiento en una base de datos, y permite comprender, en principio, cómo estará conectado el negocio con las necesidades de almacenamiento de información.
+          p.mb-0 El modelo conceptual de la base de datos es una manera de interpretar las necesidades que se tienen al implementar un modelo de almacenamiento en una base de datos, y permite comprender, en principio, cómo estará conectado el negocio con las necesidades de almacenamiento de información.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7
@@ -117,7 +117,7 @@
 
       .titulo-sexto.color-acento-botones.mt-5
         h5 Figura 2
-        p <i>Ejemplo Modelo conceptual</i>
+        p.mb-0 <em>Ejemplo Modelo conceptual</em>
             
       .col-lg-10.mt-5.mb-5
         figure
@@ -125,7 +125,7 @@
 
       .col-lg-10.mt-5.mb-5
         .cajon.color--secundario.p-4
-          p Como se puede observar en este diagrama, existe una relación entre dos entidades, una llamada clientes y la otra llamada sexo. En este caso particular, se evidencia que un sexo (hombre – mujer) está asociado a varios clientes, es decir, varios clientes pueden estar asociados al sexo ‘hombre’ y otros al sexo ‘mujer’, de esta forma,  se interpreta la asociación de la información en el sistema informático desde la comprensión literal del proceso real, al proceso del sistema de información a desarrollar.
+          p.mb-0 Como se puede observar en este diagrama, existe una relación entre dos entidades, una llamada clientes y la otra llamada sexo. En este caso particular, se evidencia que un sexo (hombre – mujer) está asociado a varios clientes, es decir, varios clientes pueden estar asociados al sexo ‘hombre’ y otros al sexo ‘mujer’, de esta forma,  se interpreta la asociación de la información en el sistema informático desde la comprensión literal del proceso real, al proceso del sistema de información a desarrollar.
 
     .row.mt-5
       h3 Modelo lógico
@@ -147,14 +147,14 @@
 
       .titulo-sexto.color-acento-botones.tema2.Mindex.mt-5
         h5 Figura 3
-        p <i>Ejemplo Modelo lógico</i> 
+        p.mb-0 <em>Ejemplo Modelo lógico</em> 
             
       .col-lg-10.tema2.Mindex.mt-5.mb-5
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema2/tema2-img-08.svg', alt='Texto que describa la imagen')        
 
       .cajon.color-acento-botones2.p-4
-        p El modelo lógico anterior propone identificar cada uno de los tipos de datos que tienen las entidades en la base de datos, facilitando que el programador, o la persona encargada de realizar la codificación de la base de datos en un sistema de gestión de base de datos, cuente con la información precisa para realizar el proceso, porque al conocer los diferentes tipos de datos que se conectan con las llaves y la restricción que cada una de ellas tiene, el desarrollador puede construir el sistema de almacenamiento con los tipos de datos y conexiones que este requiera.
+        p.mb-0 El modelo lógico anterior propone identificar cada uno de los tipos de datos que tienen las entidades en la base de datos, facilitando que el programador, o la persona encargada de realizar la codificación de la base de datos en un sistema de gestión de base de datos, cuente con la información precisa para realizar el proceso, porque al conocer los diferentes tipos de datos que se conectan con las llaves y la restricción que cada una de ellas tiene, el desarrollador puede construir el sistema de almacenamiento con los tipos de datos y conexiones que este requiera.
     
     .row.mt-5
       h3 Modelo físico
@@ -177,7 +177,7 @@
 
         .titulo-sexto.color-acento-botones.mt-5
           h5 Figura 4
-          p <i>Código implementación modelo físico</i>
+          p.mb-0 <em>Código implementación modelo físico</em>
 
         .row.justify-content-center.mb-4
           .col-lg-6
@@ -185,11 +185,11 @@
               img(src="@/assets/curso/temas/tema2/tema2-img-10.svg")
           .col-lg-6
             .cajon.color-acento-botones3.p-4
-                p La imagen presenta la codificación utilizada para crear la base de datos en el servidor, facultando a la aplicación a almacenar la información de manera correcta dentro del sistema de almacenamiento. Una vez realizada la codificación de la base de datos y su creación, se deben generar las diferentes conexiones de la información, tal como se expone en la siguiente imagen.
+                p.mb-0 La imagen presenta la codificación utilizada para crear la base de datos en el servidor, facultando a la aplicación a almacenar la información de manera correcta dentro del sistema de almacenamiento. Una vez realizada la codificación de la base de datos y su creación, se deben generar las diferentes conexiones de la información, tal como se expone en la siguiente imagen.
 
           .titulo-sexto.color-acento-botones.mt-5
             h5 Figura 5
-            p  <i>Diagrama entidad - relación en servidor de base de dato</i>
+            p.mb-0 <em>Diagrama entidad - relación en servidor de base de dato</em>
 
           figure
             img(src="@/assets/curso/temas/tema2/tema2-img-11.svg")
@@ -197,7 +197,7 @@
         .row.justify-content-up.align-items-center.mt-5
           .col-lg-12
             .cajon.color-acento-contenido.p-4
-              p Siguiendo la imagen, la base de datos está implementada en un servidor de bases de datos real, para este caso se ha utilizado el motor de bases de datos SQL Server para la codificación, pero aplicaría igual para cualquiera de los motores de bases de datos mencionados anteriormente.
+              p.mb-0 Siguiendo la imagen, la base de datos está implementada en un servidor de bases de datos real, para este caso se ha utilizado el motor de bases de datos SQL Server para la codificación, pero aplicaría igual para cualquiera de los motores de bases de datos mencionados anteriormente.
 
 </template>
 
