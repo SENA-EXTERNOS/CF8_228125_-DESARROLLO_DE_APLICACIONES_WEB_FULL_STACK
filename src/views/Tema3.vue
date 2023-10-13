@@ -60,7 +60,7 @@
 
         .titulo-sexto.color-acento-botones.mt-5
           h4 Tabla 1
-          p <i>Características de los tipos de fuentes</i>
+          p.mb-0 <em>Características de los tipos de fuentes</em>
 
         SlyderF.mb-5(columnas="col-12 col-lg-6 col-xl-6 col-xs-12")
           .tarjeta-avatar
