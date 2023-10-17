@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="338.411" viewBox="0 0 1240 338.411">
+  <g id="Grupo_897684" data-name="Grupo 897684" transform="translate(20623 8771.843)">
+    <g id="figura1" transform="translate(-20637 -8809.963)">
+      <path id="Trazado_602604" data-name="Trazado 602604" d="M1218.344,376.51H865.2a16.365,16.365,0,0,1-16.37-16.37V55.43A16.365,16.365,0,0,1,865.2,39.06h353.144a16.365,16.365,0,0,1,16.37,16.37V360.14A16.372,16.372,0,0,1,1218.344,376.51Z" transform="translate(19.287 0.022)" fill="#eaf1f6"/>
+      <path id="Trazado_602605" data-name="Trazado 602605" d="M1234.713,83.667V54.58a15.507,15.507,0,0,0-15.51-15.51H864.34a15.507,15.507,0,0,0-15.51,15.51V83.667Z" transform="translate(19.287 0.022)" fill="#0b5999"/>
+      <path id="Trazado_602606" data-name="Trazado 602606" d="M766.216,376.51H381.99a16.365,16.365,0,0,1-16.37-16.37V55.43a16.365,16.365,0,0,1,16.37-16.37H766.206a16.365,16.365,0,0,1,16.37,16.37V360.14A16.363,16.363,0,0,1,766.216,376.51Z" transform="translate(8.123 0.022)" fill="#eaf1f6"/>
+      <path id="Trazado_602607" data-name="Trazado 602607" d="M782.585,83.689V53.63a15.507,15.507,0,0,0-15.51-15.51H381.14a15.507,15.507,0,0,0-15.51,15.51V83.689H782.585Z" transform="translate(8.123 0)" fill="#0b5999"/>
+      <path id="Trazado_602608" data-name="Trazado 602608" d="M341.841,376.51H31.32a16.365,16.365,0,0,1-16.37-16.37V55.43A16.365,16.365,0,0,1,31.32,39.06H341.841a16.365,16.365,0,0,1,16.37,16.37V360.14A16.372,16.372,0,0,1,341.841,376.51Z" transform="translate(0.022 0.022)" fill="#eaf1f6"/>
+      <path id="Trazado_602609" data-name="Trazado 602609" d="M357.261,82.7V54.58a15.507,15.507,0,0,0-15.51-15.51H29.51A15.5,15.5,0,0,0,14,54.58V82.705H357.261Z" transform="translate(0 0.022)" fill="#0b5999"/>
+      <text id="Estructura_del_archivo_JSON" data-name="Estructura del archivo JSON" transform="translate(81.088 67.189)" fill="#fff" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Estructura del archivo JSON</tspan></text>
+      <text id="Información_de_usuario" data-name="Información de usuario" transform="translate(506.872 67.189)" fill="#fff" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Información de usuario</tspan></text>
+      <text id="KEY" transform="translate(395.42 111.859)" fill="#3c3c3b" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">KEY</tspan></text>
+      <text id="NOMBRE" transform="translate(445.211 111.859)" fill="#3c3c3b" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">NOMBRE</tspan></text>
+      <text id="APELLIDO" transform="translate(533.514 111.859)" fill="#3c3c3b" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">APELLIDO</tspan></text>
+      <text id="PROFESIÓN" transform="translate(619.073 111.859)" fill="#3c3c3b" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">PROFESIÓN</tspan></text>
+      <text id="KEY_ID" transform="translate(890.775 111.859)" fill="#575756" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">KEY_ID</tspan></text>
+      <text id="CIUDAD" transform="translate(980.246 111.859)" fill="#575756" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">CIUDAD</tspan></text>
+      <text id="CONTACTO" transform="translate(1122.664 111.859)" fill="#575756" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">CONTACTO</tspan></text>
+      <text id="Información_de_contacto" data-name="Información de contacto" transform="translate(977.681 67.189)" fill="#fff" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Información de contacto</tspan></text>
+      <text id="_Codigo_:_1_Nombre_:_Dulfran_Apellido_:_Montaño_Ciudad_O_:_Barranquilla_Profesion_:_Ingeniero_de_sistemas_Contacto_:_3126954069_" data-name="{
+ &quot;Codigo&quot;: 1,
+ &quot;Nombre&quot;: Dulfran&quot;,
+ &quot;Apellido&quot;: &quot;Montaño&quot;,
+ &quot;Ciudad O&quot;: &quot;Barranquilla&quot;,
+ &quot;Profesion&quot;: &quot;Ingeniero de sistemas&quot;,
+ &quot;Contacto&quot;: &quot;3126954069&quot;
+}" transform="translate(39.211 164.535)" fill="#3c3c3b" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">{</tspan><tspan x="0" y="17" xml:space="preserve"> &quot;Codigo&quot;: 1,</tspan><tspan x="0" y="34" xml:space="preserve"> &quot;Nombre&quot;: Dulfran&quot;,</tspan><tspan x="0" y="51" xml:space="preserve"> &quot;Apellido&quot;: &quot;Montaño&quot;,</tspan><tspan x="0" y="68" xml:space="preserve"> &quot;Ciudad O&quot;: &quot;Barranquilla&quot;,</tspan><tspan x="0" y="85" xml:space="preserve"> &quot;Profesion&quot;: &quot;Ingeniero de sistemas&quot;,</tspan><tspan x="0" y="102" xml:space="preserve"> &quot;Contacto&quot;: &quot;3126954069&quot;</tspan><tspan x="0" y="119">}</tspan></text>
+      <text id="DULFRAN" transform="translate(445.211 144.446)" fill="#3c3c3b" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">DULFRAN</tspan></text>
+      <text id="_1" data-name="1" transform="translate(404.485 144.446)" fill="#3c3c3b" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">1</tspan></text>
+      <text id="_2" data-name="2" transform="translate(404.485 180.041)" fill="#3c3c3b" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">2</tspan></text>
+      <text id="_1-2" data-name="1" transform="translate(910.1 144.446)" fill="#575756" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">1</tspan></text>
+      <text id="_2-2" data-name="2" transform="translate(910.1 180.041)" fill="#575756" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">2</tspan></text>
+      <text id="MONTAÑO" transform="translate(533.514 144.446)" fill="#3c3c3b" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">MONTAÑO</tspan></text>
+      <text id="INGENIERO_DE_SISTEMAS" data-name="INGENIERO DE SISTEMAS" transform="translate(619.073 144.446)" fill="#3c3c3b" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">INGENIERO DE SISTEMAS</tspan></text>
+      <text id="BARRANQUILLA" transform="translate(980.246 144.446)" fill="#575756" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">BARRANQUILLA</tspan></text>
+      <text id="_3126954069" data-name="3126954069" transform="translate(1122.664 144.446)" fill="#575756" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">3126954069</tspan></text>
+      <text id="MEDELLIN" transform="translate(980.246 178.396)" fill="#575756" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">MEDELLIN</tspan></text>
+      <text id="_3004640398" data-name="3004640398" transform="translate(1122.664 178.396)" fill="#575756" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">3004640398</tspan></text>
+      <text id="JOSE" transform="translate(445.211 182.917)" fill="#3c3c3b" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">JOSE</tspan></text>
+      <text id="MARTINEZ" transform="translate(533.514 182.917)" fill="#3c3c3b" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">MARTINEZ</tspan></text>
+      <text id="ABOGADO" transform="translate(619.073 182.917)" fill="#3c3c3b" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">ABOGADO</tspan></text>
+      <line id="Línea_417" data-name="Línea 417" x2="415.983" transform="translate(375.687 122.475)" fill="#fff" stroke="#9d9d9c" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Línea_418" data-name="Línea 418" x2="415.983" transform="translate(375.687 159.327)" fill="#fff" stroke="#9d9d9c" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Línea_419" data-name="Línea 419" x2="415.983" transform="translate(375.687 200.251)" fill="#fff" stroke="#9d9d9c" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Línea_420" data-name="Línea 420" x2="385.178" transform="translate(867.799 200.251)" fill="#fff" stroke="#9d9d9c" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Línea_421" data-name="Línea 421" x2="386.016" transform="translate(867.513 122.475)" fill="#fff" stroke="#9d9d9c" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Línea_422" data-name="Línea 422" x2="386.016" transform="translate(867.513 159.327)" fill="#fff" stroke="#9d9d9c" stroke-miterlimit="10" stroke-width="1"/>
+      <text id="_" data-name="+" transform="translate(799.807 240.764)" fill="#ef3c79" font-size="106" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">+</tspan></text>
+      <line id="Línea_423" data-name="Línea 423" y2="291.584" transform="translate(434.495 84.037)" fill="none" stroke="#9d9d9c" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Línea_424" data-name="Línea 424" y2="291.584" transform="translate(965.485 84.037)" fill="none" stroke="#9d9d9c" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Línea_425" data-name="Línea 425" y2="291.584" transform="translate(1105.65 84.037)" fill="none" stroke="#9d9d9c" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Línea_426" data-name="Línea 426" y2="291.584" transform="translate(520.436 84.037)" fill="none" stroke="#9d9d9c" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Línea_427" data-name="Línea 427" y2="291.584" transform="translate(611.492 84.037)" fill="none" stroke="#9d9d9c" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
